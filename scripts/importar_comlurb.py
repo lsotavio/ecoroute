@@ -1,6 +1,7 @@
 import json
 import re
 import uuid
+import unicodedata
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
@@ -38,6 +39,19 @@ for item in records:
         status='Operação indicada na captura', hours='Não informado',
         latitude=None, longitude=None,
     ))
+features = json.loads((root/'data/comlurb-coordinates.json').read_text(encoding='utf-8-sig'))['features']
+def normalized(value):
+    return ''.join(c for c in unicodedata.normalize('NFD', value.upper()) if c.isalnum())
+for point in points:
+    matches = [f for f in features if normalized(f['attributes']['nome_dlu_ecop']) == normalized(point['name']) and f['attributes']['regiao'] == point['region']]
+    if len(matches) > 1:
+        key = 'Laudelino' if 'Laudelino' in point['address'] else 'Maria Teresa'
+        matches = [f for f in matches if key in f['attributes']['end_dlu_ecop']]
+    if len(matches) != 1:
+        raise ValueError('Correspondência geográfica ambígua: '+point['name'])
+    feature = matches[0]
+    point.update(latitude=feature['geometry']['y'], longitude=feature['geometry']['x'], coordinateObjectId=feature['attributes']['objectid'], coordinateSource='SIURB/Comlurb — camada Ecopontos em operação')
+
 assert len(points) == 127
 (root/'data/ecopontos-rj.json').write_text(json.dumps(points, ensure_ascii=False, indent=2), encoding='utf-8')
 print(len(points))

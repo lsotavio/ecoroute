@@ -1,4 +1,5 @@
 export interface RioPoint {
+  distanceKm?: number;
   id: string; name: string; address: string; locality: string; region: string;
   materials: string[]; sourceFile: string; status: string; hours: string;
 }

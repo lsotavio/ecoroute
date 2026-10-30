@@ -17,6 +17,19 @@ export function RioApp() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
   const [busy, setBusy] = useState(false);
+  const [cep, setCep] = useState('');
+  const [nearby, setNearby] = useState<RioPoint[]>();
+  const [location, setLocation] = useState('');
+  const [locating, setLocating] = useState(false);
+  async function searchCep() {
+    setLocating(true); setError(''); setNearby(undefined); setLocation('');
+    try {
+      const value = await rioRequest<{origin:{street:string;neighborhood:string;precision:string};points:RioPoint[]}>('/proximos?'+new URLSearchParams({cep:cep.replace(/\D/g,''), ...(material ? {material} : {})}));
+      setNearby(value.points);
+      setLocation(value.origin.street+' — '+value.origin.neighborhood+'. '+value.origin.precision);
+    } catch(e) { setError(e instanceof Error ? e.message : 'Falha ao consultar CEP.'); }
+    finally { setLocating(false); }
+  }
   async function refresh() {
     setLoading(true); setError('');
     try {
@@ -59,14 +72,22 @@ export function RioApp() {
       {error && <div role="alert" className="rj-error">{error} <button onClick={() => void refresh()}>Tentar novamente</button></div>}
       {message && <p role="status" className="rj-success">{message}</p>}
       {selected ? <RioPlanForm key={editing?.id || selected.id} point={selected} initial={editing} busy={busy} onSave={save} onCancel={() => {setSelected(undefined);setEditing(undefined);}} /> : tab==='pontos' ? <>
+        <form className="rj-card" onSubmit={e => { e.preventDefault(); void searchCep(); }}>
+          <h2>Qual ecoponto fica mais perto do seu CEP?</h2>
+          <label>CEP no Rio de Janeiro<input inputMode="numeric" required pattern="[0-9]{5}-?[0-9]{3}" placeholder="Ex.: 20540-903" value={cep} onChange={e => setCep(e.target.value)} /></label>
+          <p>Consulta aproximada por logradouro. Distâncias em linha reta, sem considerar percurso ou trânsito. O CEP é consultado no ViaCEP e o logradouro no serviço de localização Esri.</p>
+          <div className="rj-actions"><button disabled={locating}>{locating ? 'Localizando…' : 'Encontrar mais próximos'}</button>{nearby && <button type="button" className="secondary" onClick={() => {setNearby(undefined);setLocation('');}}>Voltar ao catálogo</button>}</div>
+          {location && <p role="status">{location} Recomendação considera o material selecionado no momento da busca.</p>}
+        </form>
         <section className="rj-filters" aria-label="Filtros">
           <label>Nome, bairro ou endereço<input value={query} onChange={e => setQuery(e.target.value)} placeholder="Ex.: Madureira, Rocinha, Rua Bela" /></label>
           <label>Região<select value={region} onChange={e => setRegion(e.target.value)}><option value="">Todas as regiões</option>{['Centro','Zona Norte','Zona Oeste','Zona Sudoeste','Zona Sul e Grande Tijuca'].map(r => <option key={r}>{r}</option>)}</select></label>
           <label>Material<select value={material} onChange={e => setMaterial(e.target.value)}><option value="">Todos os materiais</option>{['Lixo domiciliar','Entulho','Bens inservíveis','Galhada'].map(m => <option key={m}>{m}</option>)}</select></label>
         </section>
-        <p className="muted">{loading ? 'Carregando catálogo…' : filtered.length+' ecopontos encontrados'}</p>
+        <p className="muted">{loading ? 'Carregando catálogo…' : (nearby ?? filtered).length+' ecopontos encontrados'}</p>
         {!loading && !filtered.length && <p>Nenhum ponto corresponde à busca. Tente outro bairro ou remova os filtros.</p>}
-        <section className="rj-grid">{filtered.map(p => <RioPointCard key={p.id} point={p} onPlan={p => {setEditing(undefined);setSelected(p);setMessage('');}} />)}</section>
+        {nearby && <h2>Mais próximos do logradouro do CEP — até 5 opções</h2>}
+        <section className="rj-grid">{(nearby ?? filtered).map(p => <RioPointCard key={p.id} point={p} onPlan={p => {setEditing(undefined);setSelected(p);setMessage('');}} />)}</section>
       </> : <section><h2>Meus planos de descarte</h2><p>Planos salvos neste servidor local. Nenhuma solicitação é enviada à Comlurb.</p>
         {!plans.length && <p>Você ainda não criou um plano. Escolha um ecoponto para começar.</p>}
         <div className="rj-grid">{plans.map(p => <article className="rj-card" key={p.id}><small>{p.status}</small><h3>{points.find(point => point.id===p.pointId)?.name || 'Ecoponto'}</h3><p>{p.material} · {p.date.split('-').reverse().join('/')}</p><p>{p.notes}</p><div className="rj-actions"><button disabled={busy} onClick={() => {setEditing(p);setSelected(points.find(point => point.id===p.pointId));}}>Editar</button><button className="secondary" disabled={busy} onClick={() => void remove(p)}>Excluir</button></div></article>)}</div>
@@ -75,3 +96,4 @@ export function RioApp() {
     </main><footer>Ecoroute RJ · Projeto acadêmico Reconecta 2026 · ODS 11 — Cidades e comunidades sustentáveis</footer>
   </div>;
 }
+

@@ -30,12 +30,12 @@ Anexe Ecoroute-RJ-Sprint2.zip e o link do repositório atualizado. O ZIP contém
 | Consulta e atualização | Listagem, filtros, edição de dados e situação |
 | Exclusão | DELETE com confirmação na interface |
 | Tratamento de erros | Validação Zod e mensagens de sucesso/erro |
-| Testes | 34 testes Vitest aprovados, incluindo CRUD, persistência e validação |
+| Testes | 38 testes Vitest aprovados, incluindo CRUD, persistência e validação |
 
 ## Limites apresentados com transparência
 
 - O status de operação corresponde às capturas, não a uma inspeção ao vivo.
-- Não há coordenadas numéricas verificadas nas capturas. A entrega utiliza busca textual e regional.
+- As coordenadas foram obtidas da camada pública oficial SIURB/Comlurb. A busca por CEP localiza aproximadamente o logradouro e calcula distância em linha reta.
 - Sá Viana não informa materiais; não permite criar plano com material presumido.
 - Planos são organização pessoal, não reservas com a Comlurb.
 - Aplicação local, sem login, sem implantação pública e sem isolamento entre usuários.
@@ -44,3 +44,6 @@ Anexe Ecoroute-RJ-Sprint2.zip e o link do repositório atualizado. O ZIP contém
 ## Texto para acompanhar a entrega
 
 Ecoroute RJ é uma aplicação web voltada à cidade do Rio de Janeiro, alinhada ao ODS 11.6. A Sprint 2 integra o Front-End React à API Fastify, disponibilizando consulta de 127 ecopontos da Comlurb e CRUD de planos pessoais de descarte com persistência local. Os dados foram transcritos de capturas do painel oficial, com indicação de origem e limitações. O projeto inclui instruções de execução, testes automatizados e documentação das funcionalidades.
+
+
+Atualização: busca por CEP usa ViaCEP para obter logradouro/bairro e Esri World Geocoding para localização aproximada, sem chave ou cadastro. Requer internet e compartilha CEP com ViaCEP e logradouro com Esri; não grava consultas. Rejeita outras cidades, CEP geral sem rua e geocodificação genérica de município. GET /api/v1/rio/proximos?cep=20540903 retorna até cinco opções por distância Haversine em linha reta; parâmetro material filtra opções. Não representa percurso nem posição exata do usuário. Fonte das coordenadas: https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Hosted/2025_Ecopontos_Inaugurados_DLU_Visualizacao/FeatureServer/0 . Snapshot em data/comlurb-coordinates.json; associação por nome/região e, para Campo Grande, logradouro. Teste real do CEP 20540-903 retornou Salgueiro I como primeira opção, aproximadamente 0,94 km do ponto estimado do logradouro.

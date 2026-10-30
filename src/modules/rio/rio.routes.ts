@@ -4,12 +4,13 @@ import { randomUUID } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { AppError } from '../../shared/errors/app-error';
+import { distanceKm, locateCep } from './proximity';
 
 const pointSchema = z.object({
   id: z.string().uuid(), name: z.string(), address: z.string(), locality: z.string(),
   region: z.string(), city: z.literal('Rio de Janeiro'), materials: z.array(z.string()),
   source: z.string(), sourceFile: z.string(), reviewedAt: z.string(), status: z.string(),
-  hours: z.string(), opened: z.string(), latitude: z.null(), longitude: z.null(),
+  hours: z.string(), opened: z.string(), latitude: z.number().finite().min(-90).max(90), longitude: z.number().finite().min(-180).max(180),
 });
 const planInput = z.object({
   pointId: z.string().uuid(),
@@ -30,6 +31,14 @@ export async function rioRoutes(app: FastifyInstance, options: { storagePath?: s
     plans = next;
   }
   const fold = (text: string) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  app.get('/proximos', async (request) => {
+    const { cep, material } = z.object({cep:z.string().regex(/^[0-9]{8}$/), material:z.string().optional()}).parse(request.query);
+    const origin = await locateCep(cep);
+    const results = points.filter(p => !material || p.materials.includes(material))
+      .map(p => ({...p, distanceKm:distanceKm(origin.latitude, origin.longitude, p.latitude,p.longitude)}))
+      .sort((a,b) => a.distanceKm-b.distanceKm).slice(0,5);
+    return {origin, points:results};
+  });
   app.get('/ecopontos', async (request) => {
     const query = z.object({ q: z.string().max(100).optional(), region: z.string().optional(), material: z.string().optional() }).parse(request.query);
     return points.filter(p => (!query.region || p.region === query.region) &&

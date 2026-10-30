@@ -2,6 +2,7 @@ import { RioPoint } from '../rio-api';
 export function RioPointCard({ point, onPlan }: { point: RioPoint; onPlan: (point: RioPoint) => void }) {
   return <article className="rj-card">
     <small>{point.region}</small><h3>{point.name}</h3>
+    {point.distanceKm !== undefined && <strong>{point.distanceKm.toFixed(2)} km em linha reta</strong>}
     <p>{point.address}</p><p className="muted">Localidade: {point.locality}</p>
     <div className="rj-tags">{point.materials.map(m => <span key={m}>{m}</span>)}</div>
     {!point.materials.length && <p>Materiais não informados na fonte. Consulte a Comlurb.</p>}

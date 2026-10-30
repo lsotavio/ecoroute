@@ -1,0 +1,3746 @@
+{
+  "hasZ": false,
+  "features": [
+    {
+      "attributes": {
+        "cod_bairro_ipp": "77",
+        "cod_ra_ipp": "14",
+        "bairro_com_dlu_ecop": "Colégio",
+        "globalid": "{B2877CAC-5BEC-4FD8-9F50-6A994DE80A0A}",
+        "rp_nome": "Madureira",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PARA-PEDRO",
+        "end_dlu_ecop": "Estrada da Pedreira, esquina com Estrada do Colégio",
+        "bairro_ipp": "Colégio",
+        "inaug_dlu_ecop": "Abr/26",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.83773846,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.3352515,
+        "cod_rp_ipp": "3.3",
+        "dlu_ger": "NG14I",
+        "regadm_ipp": "IRAJA                   ",
+        "objectid": 462
+      },
+      "geometry": {
+        "x": -43.33525150307595,
+        "y": -22.83773845608063
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "156",
+        "cod_ra_ipp": "29",
+        "bairro_com_dlu_ecop": "Complexo do Alemão",
+        "globalid": "{A993D50B-AB8E-4CBB-93F3-701D5090210B}",
+        "rp_nome": "Inhaúma",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "CÉU AZUL",
+        "end_dlu_ecop": "Rua Austragesilo, s/n",
+        "bairro_ipp": "Complexo do Alemão",
+        "inaug_dlu_ecop": "Jun/26",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.86116549,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.27999879,
+        "cod_rp_ipp": "3.4",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "COMPLEXO DO ALEMÃO      ",
+        "objectid": 471
+      },
+      "geometry": {
+        "x": -43.279998791219015,
+        "y": -22.861165488730244
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "004",
+        "cod_ra_ipp": "1",
+        "bairro_com_dlu_ecop": "Parque Alegria",
+        "globalid": "{0DE00525-928E-435D-8C10-6B17236C6961}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "PARQUE ALEGRIA",
+        "end_dlu_ecop": "Rua Parque Boa Esperança, 864 (Embaixo do viaduto)",
+        "bairro_ipp": "Caju",
+        "inaug_dlu_ecop": "Set/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.88390307,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.22809682,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG01P",
+        "regadm_ipp": "PORTUARIA               ",
+        "objectid": 476
+      },
+      "geometry": {
+        "x": -43.228096823910064,
+        "y": -22.88390306720512
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "017",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Comunidade Santa Marta",
+        "globalid": "{BA1DA7D3-00CA-4F8D-9F8C-B50BB1D8171A}",
+        "rp_nome": null,
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "PICO SANTA MARTA (MACIÇO DA PREGUIÇA)",
+        "end_dlu_ecop": "Rua Oswaldo Seabra ao lado da UPP",
+        "bairro_ipp": "Botafogo",
+        "inaug_dlu_ecop": "Out/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.94621236,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.19301697,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": null,
+        "objectid": 477
+      },
+      "geometry": {
+        "x": -43.19301696617652,
+        "y": -22.9462123574149
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "154",
+        "cod_ra_ipp": "27",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{3C0A61B5-926C-48E7-ADE9-293D3297074D}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "RUA 1",
+        "end_dlu_ecop": "Estrada da Gávea com Rua 1",
+        "bairro_ipp": "Rocinha",
+        "inaug_dlu_ecop": "Mar/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.9867119,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.24559234,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "ROCINHA                 ",
+        "objectid": 461
+      },
+      "geometry": {
+        "x": -43.24559234303531,
+        "y": -22.986711903284938
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "027",
+        "cod_ra_ipp": "6",
+        "bairro_com_dlu_ecop": "Próximo ao clube Piraquê",
+        "globalid": "{95F1E69E-9349-4423-B48D-41A41434AE36}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "SISTEMA LAGUNAR LAGOA RODRIGO DE FREITAS",
+        "end_dlu_ecop": "Avenida Borges de Medeiros",
+        "bairro_ipp": "Lagoa",
+        "inaug_dlu_ecop": "Dez/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.96934779,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.21700029,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG06L",
+        "regadm_ipp": "LAGOA                   ",
+        "objectid": 449
+      },
+      "geometry": {
+        "x": -43.21700029010042,
+        "y": -22.96934778848137
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "127",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Itanhangá",
+        "globalid": "{E906513F-C6A5-4465-895D-042084CB7D01}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "CASINHAS DA MANGUEIRINHA",
+        "end_dlu_ecop": "Estrada de Jacarepaguá, 3341",
+        "bairro_ipp": "Itanhangá",
+        "inaug_dlu_ecop": "Jun/26",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.97413922,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.32862037,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24B",
+        "regadm_ipp": "BARRA DA TIJUCA",
+        "objectid": 468
+      },
+      "geometry": {
+        "x": -43.32862036605156,
+        "y": -22.974139224456184
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "031",
+        "cod_ra_ipp": "6",
+        "bairro_com_dlu_ecop": "Comunidade Vila Canoas",
+        "globalid": "{332542B7-99DE-4F84-9F3F-E7F4D80721B7}",
+        "rp_nome": null,
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "PEDRA BONITA 720",
+        "end_dlu_ecop": "Estrada da Canoa, 720",
+        "bairro_ipp": "São Conrado",
+        "inaug_dlu_ecop": "Out/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.9944605,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.27148066,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": null,
+        "objectid": 478
+      },
+      "geometry": {
+        "x": -43.27148065730166,
+        "y": -22.99446049542602
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "124",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Praça Seca",
+        "globalid": "{469DF70E-92CD-4941-B66F-9EF8154160C5}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "SÃO JOSÉ OPERÁRIO",
+        "end_dlu_ecop": "Rua Barão, 26",
+        "bairro_ipp": "Praça Seca",
+        "inaug_dlu_ecop": "Jun/26",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.90376106,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.34549482,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16J",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 223
+      },
+      "geometry": {
+        "x": -43.345494822291776,
+        "y": -22.903761057063576
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "027",
+        "cod_ra_ipp": "6",
+        "bairro_com_dlu_ecop": "Morro dos Cabritos / Tabajara",
+        "globalid": "{85DB9D64-A391-4103-BA26-BD5FCD18C5CA}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "VITÓRIA RÉGIA",
+        "end_dlu_ecop": "Rua Vitória Régia",
+        "bairro_ipp": "Lagoa",
+        "inaug_dlu_ecop": "Set/2025",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.9648759,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.19735579,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG06L",
+        "regadm_ipp": "LAGOA                   ",
+        "objectid": 435
+      },
+      "geometry": {
+        "x": -43.1973557860015,
+        "y": -22.964875897030932
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "030",
+        "cod_ra_ipp": "6",
+        "bairro_com_dlu_ecop": "Chácara do Céu",
+        "globalid": "{62D9EB21-0144-4691-9C7A-F73E8B2C412B}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "CHÁCARA DO CÉU",
+        "end_dlu_ecop": "Rua Aperana, Parque dois Irmãos",
+        "bairro_ipp": "Vidigal",
+        "inaug_dlu_ecop": "Jul/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.989951,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.23322001,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "LAGOA                   ",
+        "objectid": 428
+      },
+      "geometry": {
+        "x": -43.233220012097824,
+        "y": -22.989950996205728
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "144",
+        "cod_ra_ipp": "18",
+        "bairro_com_dlu_ecop": "Campo Grande",
+        "globalid": "{5D2CF6DD-B378-4B60-BB93-E7BBBB24C650}",
+        "rp_nome": "Campo Grande",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "CAMPO GRANDE",
+        "end_dlu_ecop": "Rua Laudelino Campos com Rua Campo Grande",
+        "bairro_ipp": "Campo Grande",
+        "inaug_dlu_ecop": "Abr/26",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.90303209,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.56654514,
+        "cod_rp_ipp": "5.2",
+        "dlu_ger": "OG18G",
+        "regadm_ipp": "CAMPO GRANDE            ",
+        "objectid": 459
+      },
+      "geometry": {
+        "x": -43.56654513996201,
+        "y": -22.903032091303437
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "098",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Pixunas",
+        "globalid": "{E38EBB82-F3CE-4943-BCB0-5CF99DD7F5B0}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PIXUNAS",
+        "end_dlu_ecop": "Avenida Doutor Agenor de Almeida Loyola",
+        "bairro_ipp": "Freguesia (Ilha)",
+        "inaug_dlu_ecop": "Nov/22",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.78745663,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.17487162,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 54
+      },
+      "geometry": {
+        "x": -43.17487161996983,
+        "y": -22.787456629157404
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "101",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Cova da Onça",
+        "globalid": "{63FEBD48-ACA3-494B-BBD9-50077F616DD4}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PARANAPUÃ",
+        "end_dlu_ecop": "Avenida Paranapuã, s/n",
+        "bairro_ipp": "Tauá",
+        "inaug_dlu_ecop": "Out/22",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.79596803,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.17944653,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 55
+      },
+      "geometry": {
+        "x": -43.179446525912795,
+        "y": -22.795968031143016
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "077",
+        "cod_ra_ipp": "14",
+        "bairro_com_dlu_ecop": "Coelho Neto",
+        "globalid": "{7445681C-A554-4C1A-BAE7-026C7B415A53}",
+        "rp_nome": "Madureira",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "COELHO NETO",
+        "end_dlu_ecop": "Rua Aratangi, s/n",
+        "bairro_ipp": "Colégio",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.83496792,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.34064116,
+        "cod_rp_ipp": "3.3",
+        "dlu_ger": "NG14I",
+        "regadm_ipp": "IRAJA",
+        "objectid": 442
+      },
+      "geometry": {
+        "x": -43.34064116286851,
+        "y": -22.83496791730491
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "053",
+        "cod_ra_ipp": "12",
+        "bairro_com_dlu_ecop": "Comunidade do Guarda",
+        "globalid": "{6B322763-AFB3-4E4A-A687-1F0DFDF9B612}",
+        "rp_nome": "Inhaúma",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "COMUNIDADE DO GUARDA",
+        "end_dlu_ecop": "Rua Ministro Mavignier",
+        "bairro_ipp": "Del Castilho",
+        "inaug_dlu_ecop": "Out/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.88137123,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.28129308,
+        "cod_rp_ipp": "3.4",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "INHAUMA                 ",
+        "objectid": 356
+      },
+      "geometry": {
+        "x": -43.28129307694542,
+        "y": -22.881371230282188
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "101",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Praia da Rosa",
+        "globalid": "{A4DF31A6-645D-4372-A456-31777DF2B140}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PRAIA DA ROSA",
+        "end_dlu_ecop": "Praia da Rosa",
+        "bairro_ipp": "Tauá",
+        "inaug_dlu_ecop": "Mai/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.79362284,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.18776627,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 254
+      },
+      "geometry": {
+        "x": -43.18776626842507,
+        "y": -22.793622842527753
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "118",
+        "cod_ra_ipp": "34",
+        "bairro_com_dlu_ecop": "Cidade de Deus",
+        "globalid": "{CA6D791B-BC03-474E-91C0-0ACF30397D63}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "CIDADE DE DEUS - JOSÉ DE ARIMATÉIA",
+        "end_dlu_ecop": "Avenida José de Arimatéia",
+        "bairro_ipp": "Cidade de Deus",
+        "inaug_dlu_ecop": "Nov/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.95121515,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.36237047,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "CIDADE DE DEUS          ",
+        "objectid": 3
+      },
+      "geometry": {
+        "x": -43.36237046721807,
+        "y": -22.95121514509518
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "038",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Nova Divinéia",
+        "globalid": "{DEC506D1-8628-4561-BF19-CCC45C417523}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "NOVA DIVINEIA",
+        "end_dlu_ecop": "Rua Alfredo Pujol, na Comunidade Nova Divinéia",
+        "bairro_ipp": "Grajaú",
+        "inaug_dlu_ecop": "Jul/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.92842069,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.26355121,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL             ",
+        "objectid": 405
+      },
+      "geometry": {
+        "x": -43.26355120994685,
+        "y": -22.92842068910428
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "096",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Tribo / Dendê",
+        "globalid": "{4A030E7C-C62D-41FD-806B-6BB0CEF687B5}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "TRIBO",
+        "end_dlu_ecop": "Rua Cabo Fleury, s/n",
+        "bairro_ipp": "Cocotá",
+        "inaug_dlu_ecop": "Jan/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.80325728,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.18275023,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 259
+      },
+      "geometry": {
+        "x": -43.182750233083766,
+        "y": -22.803257279161325
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "083",
+        "cod_ra_ipp": "15",
+        "bairro_com_dlu_ecop": "Madureira",
+        "globalid": "{08FB11C5-8D76-4289-A980-97186070D4A8}",
+        "rp_nome": "Madureira",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "MADUREIRA",
+        "end_dlu_ecop": "Rua João Pereira, 63",
+        "bairro_ipp": "Madureira",
+        "inaug_dlu_ecop": "Jul/22",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.87495874,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.33462151,
+        "cod_rp_ipp": "3.3",
+        "dlu_ger": "NG15M",
+        "regadm_ipp": "MADUREIRA               ",
+        "objectid": 18
+      },
+      "geometry": {
+        "x": -43.3346215080916,
+        "y": -22.874958737917986
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "132",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Terreirão",
+        "globalid": "{EBD21564-EC57-47CC-BADB-01E74D4C90BA}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "GILKA MACHADO",
+        "end_dlu_ecop": "Rua Gilka Machado",
+        "bairro_ipp": "Recreio dos Bandeirantes",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -23.02865093,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.47340629,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 238
+      },
+      "geometry": {
+        "x": -43.473406287737184,
+        "y": -23.028650933868484
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "111",
+        "cod_ra_ipp": "25",
+        "bairro_com_dlu_ecop": "Acari",
+        "globalid": "{C60C225D-ABCB-4FF8-9B40-2B89DFD3C3E8}",
+        "rp_nome": "Pavuna",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "ACARI",
+        "end_dlu_ecop": "Rua Roberto Carlos, s/n",
+        "bairro_ipp": "Acari",
+        "inaug_dlu_ecop": "Out/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82145209,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.3418737,
+        "cod_rp_ipp": "3.6",
+        "dlu_ger": "NG25F",
+        "regadm_ipp": "PAVUNA                  ",
+        "objectid": 241
+      },
+      "geometry": {
+        "x": -43.34187370170342,
+        "y": -22.821452087024323
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "156",
+        "cod_ra_ipp": "29",
+        "bairro_com_dlu_ecop": "Complexo do Alemão",
+        "globalid": "{C4F79325-2BD8-4F48-9983-4C1FFE5072B6}",
+        "rp_nome": "Inhaúma",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "FAZENDINHA PRAÇA DA PALOMA",
+        "end_dlu_ecop": "Rua Autregésilo, 331",
+        "bairro_ipp": "Complexo do Alemão",
+        "inaug_dlu_ecop": "Set/2025",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.86563888,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.27750594,
+        "cod_rp_ipp": "3.4",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "COMPLEXO DO ALEMÃO",
+        "objectid": 436
+      },
+      "geometry": {
+        "x": -43.27750594271,
+        "y": -22.86563888202689
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "037",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Andaraí",
+        "globalid": "{32B94957-76B7-477C-A9FB-DC2A7C2A12CC}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "ANDARAÍ FERREIRA PONTES",
+        "end_dlu_ecop": "Rua Ferreira Pontes, próximo ao número 887",
+        "bairro_ipp": "Andaraí",
+        "inaug_dlu_ecop": "Abr/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.93056351,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.25769522,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL",
+        "objectid": 463
+      },
+      "geometry": {
+        "x": -43.25769522217053,
+        "y": -22.930563509108598
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "131",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Recreio",
+        "globalid": "{5F17BAFC-71B4-488E-841B-BB7C88A9BD61}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "NOVO LAR",
+        "end_dlu_ecop": "Avenida das Américas, 1900",
+        "bairro_ipp": "Vargem Grande",
+        "inaug_dlu_ecop": "Set/22",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -23.01971459,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.49877913,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 235
+      },
+      "geometry": {
+        "x": -43.498779134665135,
+        "y": -23.019714589768366
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "103",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Parque Royal",
+        "globalid": "{5AA2D8B2-7BB4-47D2-A2F6-C244C9DBDDF2}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PARQUE ROYAL",
+        "end_dlu_ecop": "Estrada Governador Chagas Freitas, s/n",
+        "bairro_ipp": "Portuguesa",
+        "inaug_dlu_ecop": "Out/22",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.79611931,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.20904369,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 258
+      },
+      "geometry": {
+        "x": -43.20904369058288,
+        "y": -22.796119305588014
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "141",
+        "cod_ra_ipp": "17",
+        "bairro_com_dlu_ecop": "Catiri",
+        "globalid": "{7E104D87-455B-4E60-AFA3-71A237516DD4}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "CATIRI",
+        "end_dlu_ecop": "Rua Roque Barbosa, 390",
+        "bairro_ipp": "Bangu",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.85069745,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.46373232,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG17B",
+        "regadm_ipp": "BANGU                   ",
+        "objectid": 25
+      },
+      "geometry": {
+        "x": -43.463732315171136,
+        "y": -22.850697452428776
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "140",
+        "cod_ra_ipp": "17",
+        "bairro_com_dlu_ecop": "Padre Miguel",
+        "globalid": "{B01D96C6-0B48-4E81-AAC4-704806669D90}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "JACQUES OURIQUES",
+        "end_dlu_ecop": "Rua Jacques Ouriques",
+        "bairro_ipp": "Padre Miguel",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.86854172,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.44399353,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG17B",
+        "regadm_ipp": "BANGU",
+        "objectid": 441
+      },
+      "geometry": {
+        "x": -43.4439935334344,
+        "y": -22.86854171572626
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "139",
+        "cod_ra_ipp": "33",
+        "bairro_com_dlu_ecop": "Realengo",
+        "globalid": "{028F4C80-E656-4967-AE6A-CAF4F5BC2BC6}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "JARDIM NOVO",
+        "end_dlu_ecop": "Rua Salvador Sabaté, 237",
+        "bairro_ipp": "Realengo",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.88801043,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.41799415,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG33R",
+        "regadm_ipp": "REALENGO                ",
+        "objectid": 29
+      },
+      "geometry": {
+        "x": -43.41799414961072,
+        "y": -22.888010429024977
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "127",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Muzema",
+        "globalid": "{0DBA5E2E-72D6-4094-99DA-43D0324A175B}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "MUZEMA",
+        "end_dlu_ecop": "Avenida Engenheiro Souza Filho com Estrada de Jacarepaguá",
+        "bairro_ipp": "Itanhangá",
+        "inaug_dlu_ecop": "Nov/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.98864238,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.32345228,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24B",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 232
+      },
+      "geometry": {
+        "x": -43.32345228464209,
+        "y": -22.9886423805497
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Rio das Pedras",
+        "globalid": "{44A44C83-D6AE-4327-86C5-109E17D3AEB0}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "CURVA DO PINHEIRO",
+        "end_dlu_ecop": "Estrada de Jacarepaguá, 4460",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.96831522,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.33581632,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 221
+      },
+      "geometry": {
+        "x": -43.335816318623436,
+        "y": -22.968315223454486
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "139",
+        "cod_ra_ipp": "33",
+        "bairro_com_dlu_ecop": "Realengo",
+        "globalid": "{6D750C47-62B3-4261-9498-FA687E131932}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "REALENGO",
+        "end_dlu_ecop": "Rua Bernardo Vasconcelos, 1746",
+        "bairro_ipp": "Realengo",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.87527325,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.43838591,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG33R",
+        "regadm_ipp": "REALENGO                ",
+        "objectid": 30
+      },
+      "geometry": {
+        "x": -43.43838590656026,
+        "y": -22.875273251251148
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "157",
+        "cod_ra_ipp": "30",
+        "bairro_com_dlu_ecop": "Maré",
+        "globalid": "{CBF137EC-85C6-46C2-BC10-40A170FD1FC6}",
+        "rp_nome": "Ramos",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PISCINÃO DE RAMOS",
+        "end_dlu_ecop": "Avenida Guanabara, s/n",
+        "bairro_ipp": "Maré",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.83944716,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.2528299,
+        "cod_rp_ipp": "3.1",
+        "dlu_ger": "CG10R",
+        "regadm_ipp": "COMPLEXO DA MARE        ",
+        "objectid": 36
+      },
+      "geometry": {
+        "x": -43.25282990147252,
+        "y": -22.839447156906157
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "036",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Morro dos Macacos",
+        "globalid": "{9BCC6709-4671-4993-AC6B-80DDDC1BFED8}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "RECANTO DO TROVADOR",
+        "end_dlu_ecop": "Rua Amando Alburquerque, 323",
+        "bairro_ipp": "Vila Isabel",
+        "inaug_dlu_ecop": "Nov/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.91589589,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.25942781,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL             ",
+        "objectid": 283
+      },
+      "geometry": {
+        "x": -43.25942780894377,
+        "y": -22.91589588997817
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Rio das Pedras",
+        "globalid": "{55A9E4B4-1C3A-499F-B4FD-7F698BA9C42F}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "PINHEIRO",
+        "end_dlu_ecop": "Estrada de Jacarepaguá, 3.502 - Lote 5",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.97194433,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.33243607,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 219
+      },
+      "geometry": {
+        "x": -43.33243607319368,
+        "y": -22.97194433324918
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "141",
+        "cod_ra_ipp": "17",
+        "bairro_com_dlu_ecop": "Bangu",
+        "globalid": "{F4C13DEE-FCE6-40B4-8797-2391B466D9E5}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "PETRARCA",
+        "end_dlu_ecop": "Praça Petrarca - Avenida Brasil, 32.327",
+        "bairro_ipp": "Bangu",
+        "inaug_dlu_ecop": "Jan/24",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.85945513,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.46136149,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG17B",
+        "regadm_ipp": "BANGU                   ",
+        "objectid": 327
+      },
+      "geometry": {
+        "x": -43.461361493151365,
+        "y": -22.85945513372801
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "155",
+        "cod_ra_ipp": "28",
+        "bairro_com_dlu_ecop": "Jacaré",
+        "globalid": "{7BB09422-C6DD-47B0-87D5-A69888F1F96B}",
+        "rp_nome": "Méier",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "AV. DOM HELDER CÂMARA - SUÍPA",
+        "end_dlu_ecop": "Avenida Dom Helder Câmara",
+        "bairro_ipp": "Jacarezinho",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.88409069,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.25366165,
+        "cod_rp_ipp": "3.2",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "JACAREZINHO             ",
+        "objectid": 280
+      },
+      "geometry": {
+        "x": -43.25366165159407,
+        "y": -22.884090688621008
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "149",
+        "cod_ra_ipp": "19",
+        "bairro_com_dlu_ecop": "Santa Cruz",
+        "globalid": "{480EB1D2-5053-4716-B1DC-E632C333D8CD}",
+        "rp_nome": "Santa Cruz",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "SANTA VERIDIANA",
+        "end_dlu_ecop": "Estrada da Pedra com Rua Van Jaffa . Em frente Estação BRT Santa Veridiana",
+        "bairro_ipp": "Santa Cruz",
+        "inaug_dlu_ecop": "Jun/26",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.94013465,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.66514541,
+        "cod_rp_ipp": "5.3",
+        "dlu_ger": "OG19C",
+        "regadm_ipp": "SANTA CRUZ",
+        "objectid": 466
+      },
+      "geometry": {
+        "x": -43.66514541290139,
+        "y": -22.940134651004627
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Rio das Pedras",
+        "globalid": "{51EF6D63-F4C2-4E0F-8228-BB976F4B9217}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "SANTA MARIA",
+        "end_dlu_ecop": "Ladeira Santa Maria",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Out/24",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.91533385,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.42178255,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16J",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 305
+      },
+      "geometry": {
+        "x": -43.42178254853748,
+        "y": -22.915333849250622
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "139",
+        "cod_ra_ipp": "33",
+        "bairro_com_dlu_ecop": "Realengo",
+        "globalid": "{B9FC21AA-E470-471E-9532-BE0002CA8429}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "VAGÃO",
+        "end_dlu_ecop": "Avenida Brasil com Rua Recife, altura do posto de gasolina vagão",
+        "bairro_ipp": "Realengo",
+        "inaug_dlu_ecop": "Mai/22",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.86409242,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.43656001,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG33R",
+        "regadm_ipp": "REALENGO                ",
+        "objectid": 343
+      },
+      "geometry": {
+        "x": -43.43656001337161,
+        "y": -22.864092420326177
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "17",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Comunidade Pereira da Silva",
+        "globalid": "{C1324D84-68D3-4BCE-83D9-7558D6922D0F}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "VILA PEREIRA DA SILVA",
+        "end_dlu_ecop": "Final da Rua Pereira da Silva",
+        "bairro_ipp": "Laranjeiras",
+        "inaug_dlu_ecop": "Abr/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.93115982,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.19157989,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": "BOTAFOGO                ",
+        "objectid": 460
+      },
+      "geometry": {
+        "x": -43.191579888541426,
+        "y": -22.93115982114814
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "073",
+        "cod_ra_ipp": "14",
+        "bairro_com_dlu_ecop": "Comunidade do Juramento",
+        "globalid": "{FF4D92C7-77C3-47DA-A88F-C31B3E5F9387}",
+        "rp_nome": "Madureira",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "JURAMENTO",
+        "end_dlu_ecop": "Praça Cotigi, 200",
+        "bairro_ipp": "Vicente de Carvalho",
+        "inaug_dlu_ecop": "Nov/22",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.85674117,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.31630598,
+        "cod_rp_ipp": "3.3",
+        "dlu_ger": "NG14I",
+        "regadm_ipp": "IRAJA                   ",
+        "objectid": 251
+      },
+      "geometry": {
+        "x": -43.31630597964757,
+        "y": -22.856741173585252
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "101",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Querosene",
+        "globalid": "{058A86DC-8C37-45CE-8B5E-70F8957F46E6}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "QUEROSENE",
+        "end_dlu_ecop": "Rua Maestro Arturo Tosacanini",
+        "bairro_ipp": "Tauá",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.79846001,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.18243216,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 256
+      },
+      "geometry": {
+        "x": -43.18243216299784,
+        "y": -22.79846000501175
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "156",
+        "cod_ra_ipp": "29",
+        "bairro_com_dlu_ecop": "Fazendinha",
+        "globalid": "{403DE18D-8F62-4D7A-8D09-A69DD16BD733}",
+        "rp_nome": "Inhaúma",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "FAZENDINHA CAMPO DO SEU ZÉ",
+        "end_dlu_ecop": "Rua Austregésilo, s/n",
+        "bairro_ipp": "Complexo do Alemão",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.86362253,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.27912313,
+        "cod_rp_ipp": "3.4",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "COMPLEXO DO ALEMÃO      ",
+        "objectid": 429
+      },
+      "geometry": {
+        "x": -43.27912313366242,
+        "y": -22.863622530828913
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "117",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Gardênia Azul",
+        "globalid": "{477F18F7-5F19-49FD-9677-63B538E9EBA8}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "AYRTON SENNA",
+        "end_dlu_ecop": "Avenida Ayrton Senna, ao lado do Assaí",
+        "bairro_ipp": "Gardênia Azul",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.95868028,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.35693014,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 222
+      },
+      "geometry": {
+        "x": -43.35693013600845,
+        "y": -22.958680284579053
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "112",
+        "cod_ra_ipp": "25",
+        "bairro_com_dlu_ecop": "Fazenda Botafogo",
+        "globalid": "{F1463ABC-31FC-4711-8F19-0D9AA851B2D1}",
+        "rp_nome": "Pavuna",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "SARGENTO SILVIO HOLLENBACH",
+        "end_dlu_ecop": "Rua Sargento Sílvio Hollenbach",
+        "bairro_ipp": "Barros Filho",
+        "inaug_dlu_ecop": "Jul/24",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82634123,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.36018586,
+        "cod_rp_ipp": "3.6",
+        "dlu_ger": "NG25F",
+        "regadm_ipp": "PAVUNA                  ",
+        "objectid": 419
+      },
+      "geometry": {
+        "x": -43.360185861465155,
+        "y": -22.826341228848786
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "037",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Morro do Cruz",
+        "globalid": "{B7BC3731-1C56-4766-A5A8-5E917E2610B6}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "MORRO DO CRUZ",
+        "end_dlu_ecop": "Rua Tenente Marques de Sousa",
+        "bairro_ipp": "Andaraí",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.93075566,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.25055752,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL             ",
+        "objectid": 286
+      },
+      "geometry": {
+        "x": -43.250557516841575,
+        "y": -22.930755663956077
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "018",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Comunidade Tavares Bastos",
+        "globalid": "{417D87AE-E876-47F0-A51A-F4595DE7A6A5}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "CRUZEIRO DO SUL",
+        "end_dlu_ecop": "Rua Cruzeiro do Sul, 296",
+        "bairro_ipp": "Catete",
+        "inaug_dlu_ecop": "Fev/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.9267911,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.18208802,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": "BOTAFOGO",
+        "objectid": 457
+      },
+      "geometry": {
+        "x": -43.182088020515096,
+        "y": -22.92679110374109
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "127",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Rio das Pedras",
+        "globalid": "{7E1981E2-E5B4-437A-BA20-E207AEF7CEAF}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "VIA LIGHT",
+        "end_dlu_ecop": "Via Light Rio das Pedras",
+        "bairro_ipp": "Itanhangá",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.97645168,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.33224968,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24B",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 231
+      },
+      "geometry": {
+        "x": -43.33224967816213,
+        "y": -22.976451683942518
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Anil",
+        "globalid": "{E0FAE6D1-F56E-4689-A8C0-87D384B4F766}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "SERTÃO",
+        "end_dlu_ecop": "Estrada do Sertão, 859",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Out/24",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.9665399,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.32371205,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 423
+      },
+      "geometry": {
+        "x": -43.32371204837935,
+        "y": -22.96653989651834
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "004",
+        "cod_ra_ipp": "1",
+        "bairro_com_dlu_ecop": "São Sebastião",
+        "globalid": "{B24C8B99-BB34-4904-81DF-394C7E333B66}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "VILA DOS SONHOS",
+        "end_dlu_ecop": "No final da Rua Carmelita da Conceição",
+        "bairro_ipp": "Caju",
+        "inaug_dlu_ecop": "Abr/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.87743473,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.22131262,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG01P",
+        "regadm_ipp": "PORTUARIA               ",
+        "objectid": 425
+      },
+      "geometry": {
+        "x": -43.22131261573036,
+        "y": -22.877434731049306
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "159",
+        "cod_ra_ipp": "25",
+        "bairro_com_dlu_ecop": "Pavuna",
+        "globalid": "{63FC0269-E819-4EFD-82B4-2D902703C9A3}",
+        "rp_nome": "Pavuna",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PEDREIRA",
+        "end_dlu_ecop": "Rua Pastor Martin Luther King Jr, 11537",
+        "bairro_ipp": "Parque Colúmbia",
+        "inaug_dlu_ecop": "Out/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82189297,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.35135716,
+        "cod_rp_ipp": "3.6",
+        "dlu_ger": "NG25F",
+        "regadm_ipp": "PAVUNA",
+        "objectid": 438
+      },
+      "geometry": {
+        "x": -43.35135716521365,
+        "y": -22.8218929709668
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "033",
+        "cod_ra_ipp": "8",
+        "bairro_com_dlu_ecop": "Salgueiro",
+        "globalid": "{4AAC7F82-A108-4C7A-80E4-BF388894DF7F}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "SALGUEIRO II",
+        "end_dlu_ecop": "Rua Francisco Garça, s/n",
+        "bairro_ipp": "Tijuca",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.93067755,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.22669879,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG08T",
+        "regadm_ipp": "TIJUCA",
+        "objectid": 440
+      },
+      "geometry": {
+        "x": -43.226698791821285,
+        "y": -22.930677553993814
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "012",
+        "cod_ra_ipp": "7",
+        "bairro_com_dlu_ecop": "Favela do Arará",
+        "globalid": "{490FA681-5CE2-4479-8D7B-E99FB3FD9766}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "ARARÁ",
+        "end_dlu_ecop": "Rua Aloysio Amancio, s/n",
+        "bairro_ipp": "Benfica",
+        "inaug_dlu_ecop": "Out/22",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.88961869,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.2422967,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG07S",
+        "regadm_ipp": "SAO CRISTOVAO           ",
+        "objectid": 289
+      },
+      "geometry": {
+        "x": -43.242296703811924,
+        "y": -22.889618687093808
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "124",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Comunidade do Chacrinha",
+        "globalid": "{19ABAE5F-7362-4BCD-8801-81FFD584686A}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "CHACRINHA",
+        "end_dlu_ecop": "Estrada Comandante Luis Souto",
+        "bairro_ipp": "Praça Seca",
+        "inaug_dlu_ecop": "Jan/26",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.90454559,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.35748769,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16J",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 303
+      },
+      "geometry": {
+        "x": -43.35748768784789,
+        "y": -22.904545587245703
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Rio das Pedras",
+        "globalid": "{D0C81E41-D881-48E3-92EF-645676DA790E}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "AREAL",
+        "end_dlu_ecop": "Avenida Governador Leonel de Moura Brizola",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Nov/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.97692436,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.33795484,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 217
+      },
+      "geometry": {
+        "x": -43.33795483900569,
+        "y": -22.97692436324579
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Cidade de Deus",
+        "globalid": "{2DCC99DA-89BD-4AE6-AC9B-C60402555D9D}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "CDD KARATÊ",
+        "end_dlu_ecop": "Avenida Arroio Fundo, via de entrada dos centros de treinamento do vasco e fluminense",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.9546153,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.3656129,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 220
+      },
+      "geometry": {
+        "x": -43.365612903896704,
+        "y": -22.95461530104908
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "141",
+        "cod_ra_ipp": "17",
+        "bairro_com_dlu_ecop": "Vila Aliança",
+        "globalid": "{DFEF6EB1-B810-491A-9D5B-283CFE5F39FB}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "VILA ALIANÇA",
+        "end_dlu_ecop": "Rua Coronel Tamarindo, 1960",
+        "bairro_ipp": "Bangu",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.87538338,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.47378495,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG17B",
+        "regadm_ipp": "BANGU                   ",
+        "objectid": 326
+      },
+      "geometry": {
+        "x": -43.47378494918896,
+        "y": -22.875383375439533
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "149",
+        "cod_ra_ipp": "19",
+        "bairro_com_dlu_ecop": "Jesuítas / Urucânia",
+        "globalid": "{316F8ABB-D50F-42CE-973B-66280B4339D7}",
+        "rp_nome": "Santa Cruz",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "ESTRADA DE URUCÂNIA",
+        "end_dlu_ecop": "Rua Adalberto Mortati, s/n",
+        "bairro_ipp": "Santa Cruz",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.91756126,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.65425249,
+        "cod_rp_ipp": "5.3",
+        "dlu_ger": "OG19C",
+        "regadm_ipp": "SANTA CRUZ              ",
+        "objectid": 386
+      },
+      "geometry": {
+        "x": -43.654252486875706,
+        "y": -22.91756126350617
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "011",
+        "cod_ra_ipp": "7",
+        "bairro_com_dlu_ecop": "Mangueira",
+        "globalid": "{68EA9656-D1DA-41A8-BB0D-18ADC3B379F9}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "MANGUEIRA",
+        "end_dlu_ecop": "Rua Visconde de Niterói, 800",
+        "bairro_ipp": "Mangueira",
+        "inaug_dlu_ecop": "Set/22",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.90536384,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.23988518,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG07S",
+        "regadm_ipp": "SAO CRISTOVAO           ",
+        "objectid": 290
+      },
+      "geometry": {
+        "x": -43.23988517822834,
+        "y": -22.90536384080843
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "066",
+        "cod_ra_ipp": "13",
+        "bairro_com_dlu_ecop": "Camarista Méier",
+        "globalid": "{D6396115-7CC7-4EAE-AF51-D647E70D94AE}",
+        "rp_nome": "Méier",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "CAMARISTA MÉIER",
+        "end_dlu_ecop": "Rua Camarista Méier,  850",
+        "bairro_ipp": "Engenho de Dentro",
+        "inaug_dlu_ecop": "Set/22",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.91194638,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.2974401,
+        "cod_rp_ipp": "3.2",
+        "dlu_ger": "CG13P",
+        "regadm_ipp": "MEIER                   ",
+        "objectid": 250
+      },
+      "geometry": {
+        "x": -43.29744009564975,
+        "y": -22.911946379716955
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "009",
+        "cod_ra_ipp": "3",
+        "bairro_com_dlu_ecop": "São Carlos",
+        "globalid": "{16C010B2-0EDD-4360-AA21-11DE79A20A13}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "SÃO CARLOS",
+        "end_dlu_ecop": "Rua São Diniz, S/N",
+        "bairro_ipp": "Estácio",
+        "inaug_dlu_ecop": "Abr/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.91568991,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.20197881,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG03R",
+        "regadm_ipp": "RIO COMPRIDO            ",
+        "objectid": 415
+      },
+      "geometry": {
+        "x": -43.2019788109792,
+        "y": -22.915689909095388
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "153",
+        "cod_ra_ipp": "26",
+        "bairro_com_dlu_ecop": "Pedra de Guaratiba",
+        "globalid": "{A29D524F-84B3-4404-B020-E4B244208082}",
+        "rp_nome": "Guaratiba",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "PEDRA DE GUARATIBA",
+        "end_dlu_ecop": "Rua Belchior da Fonseca, 267",
+        "bairro_ipp": "Pedra de Guaratiba",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.99997819,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.64193517,
+        "cod_rp_ipp": "5.4",
+        "dlu_ger": "OG26P",
+        "regadm_ipp": "GUARATIBA               ",
+        "objectid": 72
+      },
+      "geometry": {
+        "x": -43.64193516678889,
+        "y": -22.999978188874756
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "039",
+        "cod_ra_ipp": "10",
+        "bairro_com_dlu_ecop": "Manguinhos",
+        "globalid": "{9F62FD5C-99A2-4ED8-A5C3-F29042BEEC0B}",
+        "rp_nome": "Ramos",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PREDINHOS",
+        "end_dlu_ecop": "Conjunto da Embratel",
+        "bairro_ipp": "Manguinhos",
+        "inaug_dlu_ecop": "Jul/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.88433286,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.24477806,
+        "cod_rp_ipp": "3.1",
+        "dlu_ger": "CG10R",
+        "regadm_ipp": "RAMOS                   ",
+        "objectid": 353
+      },
+      "geometry": {
+        "x": -43.24477805803989,
+        "y": -22.88433286435271
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "038",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Grajaú",
+        "globalid": "{E1B948D3-F53B-41C5-8A6C-1B9F242EADCB}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "BORDA DO MATO",
+        "end_dlu_ecop": "Rua Borda do Mato",
+        "bairro_ipp": "Grajaú",
+        "inaug_dlu_ecop": "Mai/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.92857779,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.26509435,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL             ",
+        "objectid": 285
+      },
+      "geometry": {
+        "x": -43.26509435480652,
+        "y": -22.928577785432363
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "018",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Comunidade Santo Amaro",
+        "globalid": "{BB66AC21-7678-48E0-9E9B-77AB2E7A9956}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "PEDRO AMÉRICO (SANTO AMARO)",
+        "end_dlu_ecop": "Rua Pedro Américo, 77",
+        "bairro_ipp": "Catete",
+        "inaug_dlu_ecop": "Jul/24",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.92396848,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.17816604,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": "BOTAFOGO                ",
+        "objectid": 418
+      },
+      "geometry": {
+        "x": -43.1781660376624,
+        "y": -22.923968475737663
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "048",
+        "cod_ra_ipp": "31",
+        "bairro_com_dlu_ecop": "Vigário Geral",
+        "globalid": "{0C9C9252-81B5-4FD7-9903-DB9ACEAD0C4B}",
+        "rp_nome": "Penha",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "VIGÁRIO GERAL",
+        "end_dlu_ecop": "Rua Doutor Adauto (entrada da comunidade)",
+        "bairro_ipp": "Vigário Geral",
+        "inaug_dlu_ecop": "Ago/22",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.80331657,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.30427278,
+        "cod_rp_ipp": "3.5",
+        "dlu_ger": "NG31V",
+        "regadm_ipp": "VIGARIO GERAL           ",
+        "objectid": 262
+      },
+      "geometry": {
+        "x": -43.304272782312076,
+        "y": -22.803316567251994
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "130",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Comunidade César Maia",
+        "globalid": "{35DACEE9-20E6-41D2-90D3-AE3516176D05}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "CONJUNTO HABITACIONAL BANDEIRANTES",
+        "end_dlu_ecop": "Estrada dos Bandeirantes, 11227",
+        "bairro_ipp": "Vargem Pequena",
+        "inaug_dlu_ecop": "Jul/25",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.98889366,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.43343731,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 420
+      },
+      "geometry": {
+        "x": -43.43343731223885,
+        "y": -22.98889365931056
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "156",
+        "cod_ra_ipp": "29",
+        "bairro_com_dlu_ecop": "Alemão",
+        "globalid": "{7A086450-8625-41CB-ADED-3EAC27950567}",
+        "rp_nome": "Inhaúma",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "ALEMÃO",
+        "end_dlu_ecop": "Rua Nova, em frente a estação do Itararé",
+        "bairro_ipp": "Complexo do Alemão",
+        "inaug_dlu_ecop": "Out/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.86154148,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.2718127,
+        "cod_rp_ipp": "3.4",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "COMPLEXO DO ALEMÃO      ",
+        "objectid": 424
+      },
+      "geometry": {
+        "x": -43.271812702102864,
+        "y": -22.861541482108823
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "018",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Pedro Américo",
+        "globalid": "{D3630A17-C14C-4BC6-B8EC-0DBD697372F6}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "PEDRO AMÉRICO 715",
+        "end_dlu_ecop": "Rua Pedro Américo, 715",
+        "bairro_ipp": "Catete",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.92504943,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.18284249,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": "BOTAFOGO",
+        "objectid": 443
+      },
+      "geometry": {
+        "x": -43.18284249290296,
+        "y": -22.925049433501947
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "154",
+        "cod_ra_ipp": "27",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{2779191A-AE70-4116-8A30-A90C79F0EC6F}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "VALÃO",
+        "end_dlu_ecop": "Rua do Valão",
+        "bairro_ipp": "Rocinha",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.99033724,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.24885026,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "ROCINHA                 ",
+        "objectid": 271
+      },
+      "geometry": {
+        "x": -43.24885026235594,
+        "y": -22.990337243821518
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "154",
+        "cod_ra_ipp": "27",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{A0DBE908-5B66-4CB0-9069-DB53F8F0CE28}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "199",
+        "end_dlu_ecop": "Estrada da Gávea, 199",
+        "bairro_ipp": "Rocinha",
+        "inaug_dlu_ecop": "Jan/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.98576732,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.24350824,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "ROCINHA                 ",
+        "objectid": 272
+      },
+      "geometry": {
+        "x": -43.24350823827944,
+        "y": -22.98576732314334
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "157",
+        "cod_ra_ipp": "30",
+        "bairro_com_dlu_ecop": "Maré",
+        "globalid": "{E355B8AD-40A4-4A39-A065-39AF4FB3D7FA}",
+        "rp_nome": "Ramos",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PARQUE UNIÃO",
+        "end_dlu_ecop": "Rua Gunabara com Avenida Brigadeiro Trompowsky",
+        "bairro_ipp": "Maré",
+        "inaug_dlu_ecop": "Jun/26",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.85243123,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.24711093,
+        "cod_rp_ipp": "3.1",
+        "dlu_ger": "CG10R",
+        "regadm_ipp": "COMPLEXO DA MARE",
+        "objectid": 469
+      },
+      "geometry": {
+        "x": -43.247110928594296,
+        "y": -22.852431229370648
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "054",
+        "cod_ra_ipp": "12",
+        "bairro_com_dlu_ecop": "Águia de Ouro",
+        "globalid": "{AC9DB9FB-6B68-4FF0-AE0E-B76C5EA951AF}",
+        "rp_nome": "Inhaúma",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "ÁGUIA DE OURO",
+        "end_dlu_ecop": "Rua General Cândido, 56",
+        "bairro_ipp": "Inhaúma",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.88065802,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.28088826,
+        "cod_rp_ipp": "3.4",
+        "dlu_ger": "CG12I",
+        "regadm_ipp": "INHAUMA                 ",
+        "objectid": 430
+      },
+      "geometry": {
+        "x": -43.28088826430579,
+        "y": -22.88065801814123
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "047",
+        "cod_ra_ipp": "31",
+        "bairro_com_dlu_ecop": "Comunidade de Lucas",
+        "globalid": "{0E46953A-7EE1-4681-ABC1-68601639943C}",
+        "rp_nome": "Penha",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PARADA DE LUCAS",
+        "end_dlu_ecop": "Avenida BrasilL, 14.000",
+        "bairro_ipp": "Parada de Lucas",
+        "inaug_dlu_ecop": "Set/22",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.81401404,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.29365419,
+        "cod_rp_ipp": "3.5",
+        "dlu_ger": "NG31V",
+        "regadm_ipp": "VIGARIO GERAL           ",
+        "objectid": 263
+      },
+      "geometry": {
+        "x": -43.29365418630904,
+        "y": -22.81401404267883
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "060",
+        "cod_ra_ipp": "13",
+        "bairro_com_dlu_ecop": "Sampaio",
+        "globalid": "{17D1A5D3-762B-4128-96E9-1F3B7ACE6390}",
+        "rp_nome": "Méier",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PAIM PAMPLONA",
+        "end_dlu_ecop": "Rua Paim Pamplona",
+        "bairro_ipp": "Sampaio",
+        "inaug_dlu_ecop": "Jul/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.89779216,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.26083374,
+        "cod_rp_ipp": "3.2",
+        "dlu_ger": "CG13M",
+        "regadm_ipp": "MEIER                   ",
+        "objectid": 282
+      },
+      "geometry": {
+        "x": -43.26083373973703,
+        "y": -22.897792155719355
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "151",
+        "cod_ra_ipp": "26",
+        "bairro_com_dlu_ecop": "Guaratiba",
+        "globalid": "{B113EB64-FF07-46B5-A3E7-6244DA6904DD}",
+        "rp_nome": "Guaratiba",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "JARDIM MARAVILHA",
+        "end_dlu_ecop": "Avenida São José dos Campos, esquina com estrada do Margaça",
+        "bairro_ipp": "Guaratiba",
+        "inaug_dlu_ecop": "Mai/26",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.96246054,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.61276814,
+        "cod_rp_ipp": "5.4",
+        "dlu_ger": "OG26P",
+        "regadm_ipp": "GUARATIBA               ",
+        "objectid": 464
+      },
+      "geometry": {
+        "x": -43.61276814182039,
+        "y": -22.962460535569
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "083",
+        "cod_ra_ipp": "15",
+        "bairro_com_dlu_ecop": "Madureira",
+        "globalid": "{13941B5D-EE87-4CDB-9869-E09EB0B2912A}",
+        "rp_nome": "Madureira",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "MADUREIRA - ANGELO DANTAS",
+        "end_dlu_ecop": "Rua Ângelo Dantas, esquina com Rua Maria Lopes",
+        "bairro_ipp": "Madureira",
+        "inaug_dlu_ecop": "Jun/26",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.87956375,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.33359146,
+        "cod_rp_ipp": "3.3",
+        "dlu_ger": "NG15M",
+        "regadm_ipp": "MADUREIRA               ",
+        "objectid": 467
+      },
+      "geometry": {
+        "x": -43.33359146471175,
+        "y": -22.879563750684724
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "132",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Terreirão",
+        "globalid": "{FDADD500-35D4-47FE-9951-048478B684E5}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "TERREIRÃO",
+        "end_dlu_ecop": "Avenida Guiomar Novaes",
+        "bairro_ipp": "Recreio dos Bandeirantes",
+        "inaug_dlu_ecop": "Out/24",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -23.02464424,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.48187823,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 236
+      },
+      "geometry": {
+        "x": -43.48187822551981,
+        "y": -23.024644243927956
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "038",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Grajaú",
+        "globalid": "{A1040199-5CAD-441C-AFC8-6AC26067F419}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": null,
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "SÁ VIANA",
+        "end_dlu_ecop": "Rua Sá Viana",
+        "bairro_ipp": "Grajaú",
+        "inaug_dlu_ecop": "Out/22",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.92916254,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.26158953,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL             ",
+        "objectid": 404
+      },
+      "geometry": {
+        "x": -43.26158953460643,
+        "y": -22.92916253518119
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "154",
+        "cod_ra_ipp": "27",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{8EA87779-5AD0-4F11-9189-25EAA7DBCE52}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "VILA VERDE",
+        "end_dlu_ecop": "Estrada da Gávea, 525",
+        "bairro_ipp": "Rocinha",
+        "inaug_dlu_ecop": "Jan/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.98962993,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.25242227,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "ROCINHA                 ",
+        "objectid": 453
+      },
+      "geometry": {
+        "x": -43.252422266579686,
+        "y": -22.989629925613055
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "149",
+        "cod_ra_ipp": "19",
+        "bairro_com_dlu_ecop": "Santa Cruz",
+        "globalid": "{3344DE0E-1D21-4D71-8337-C7C000B3D24A}",
+        "rp_nome": "Santa Cruz",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "SÃO TOMÉ",
+        "end_dlu_ecop": "Rua São Tomé, 171",
+        "bairro_ipp": "Santa Cruz",
+        "inaug_dlu_ecop": "Jul/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.92461678,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.69465462,
+        "cod_rp_ipp": "5.3",
+        "dlu_ger": "OG19C",
+        "regadm_ipp": "SANTA CRUZ              ",
+        "objectid": 69
+      },
+      "geometry": {
+        "x": -43.6946546174276,
+        "y": -22.924616776249387
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "031",
+        "cod_ra_ipp": "6",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{B9EC272C-E297-4D3E-B992-75FACC22178C}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "ROUPA SUJA",
+        "end_dlu_ecop": "Auto Estrada Lagoa Barra, na saída do túnel Zuzu Angel ",
+        "bairro_ipp": "São Conrado",
+        "inaug_dlu_ecop": "Jan/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.99234697,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.24964283,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "LAGOA                   ",
+        "objectid": 268
+      },
+      "geometry": {
+        "x": -43.24964282616815,
+        "y": -22.992346970831655
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "051",
+        "cod_ra_ipp": "13",
+        "bairro_com_dlu_ecop": "Jacaré",
+        "globalid": "{299257D5-0D1B-49F6-93A3-A3AC3FB4487C}",
+        "rp_nome": null,
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "BAIRRO CARIOCA - TRIAGEM",
+        "end_dlu_ecop": "Rua Projetada 1, com Rua Conselheiro Mairink",
+        "bairro_ipp": "Jacaré",
+        "inaug_dlu_ecop": "Jul/26",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.89105873,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.25001705,
+        "cod_rp_ipp": "3.2",
+        "dlu_ger": "CG13M",
+        "regadm_ipp": "MEIER                   ",
+        "objectid": 472
+      },
+      "geometry": {
+        "x": -43.25001705224909,
+        "y": -22.89105872484102
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "033",
+        "cod_ra_ipp": "8",
+        "bairro_com_dlu_ecop": "Borel",
+        "globalid": "{A9E68520-1990-4737-A01B-48E30799291A}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "CHÁCARA DO CÉU - BOREL",
+        "end_dlu_ecop": "Estrada da Caixa D'Água, 47",
+        "bairro_ipp": "Tijuca",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.93542849,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.25349112,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG08T",
+        "regadm_ipp": "TIJUCA                  ",
+        "objectid": 287
+      },
+      "geometry": {
+        "x": -43.25349111811551,
+        "y": -22.935428487710908
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "036",
+        "cod_ra_ipp": "9",
+        "bairro_com_dlu_ecop": "Vila Isabel",
+        "globalid": "{B49AA915-00EB-46B2-9BF4-ACEED5563417}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "MORRO DOS MACACOS",
+        "end_dlu_ecop": "Rua Armando de Alburquerque, 168",
+        "bairro_ipp": "Vila Isabel",
+        "inaug_dlu_ecop": "Jul/26",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.9154688,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.26199069,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG09V",
+        "regadm_ipp": "VILA ISABEL             ",
+        "objectid": 403
+      },
+      "geometry": {
+        "x": -43.261990690392736,
+        "y": -22.91546879561052
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "111",
+        "cod_ra_ipp": "25",
+        "bairro_com_dlu_ecop": "Coelho Neto",
+        "globalid": "{27151481-D813-4C72-A661-7D9406A0E487}",
+        "rp_nome": "Pavuna",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PANTOJA",
+        "end_dlu_ecop": "Rua Pastor Martin Luther King Jr., s/n",
+        "bairro_ipp": "Acari",
+        "inaug_dlu_ecop": "Jul/24",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82898961,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.34553049,
+        "cod_rp_ipp": "3.6",
+        "dlu_ger": "NG25F",
+        "regadm_ipp": "PAVUNA                  ",
+        "objectid": 422
+      },
+      "geometry": {
+        "x": -43.345530492595074,
+        "y": -22.82898961366121
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "130",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Vargem Pequena",
+        "globalid": "{F887F4B5-438D-4F34-86C1-B4270FB3296F}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "MONT SERRAT",
+        "end_dlu_ecop": "Final da Rua Cláudio Jacoby",
+        "bairro_ipp": "Vargem Pequena",
+        "inaug_dlu_ecop": "Mar/26",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.97930611,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.4642203,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA",
+        "objectid": 458
+      },
+      "geometry": {
+        "x": -43.464220299479464,
+        "y": -22.979306114428734
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "006",
+        "cod_ra_ipp": "3",
+        "bairro_com_dlu_ecop": "CATUMBI",
+        "globalid": "{CDF260D7-296A-44BA-BD8C-6DA996B4E108}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "MINEIRA",
+        "end_dlu_ecop": "Rua Van Erven, 135",
+        "bairro_ipp": "Catumbi",
+        "inaug_dlu_ecop": "Jul/22",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.91795377,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.19730713,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG03R",
+        "regadm_ipp": "RIO COMPRIDO            ",
+        "objectid": 294
+      },
+      "geometry": {
+        "x": -43.19730713222557,
+        "y": -22.917953766144386
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "034",
+        "cod_ra_ipp": "8",
+        "bairro_com_dlu_ecop": "Comunidade de Furnas",
+        "globalid": "{3898F860-81DC-4811-91B0-296A787327AE}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "MATA MACHADO",
+        "end_dlu_ecop": "Estrada de Furnas",
+        "bairro_ipp": "Alto da Boa Vista",
+        "inaug_dlu_ecop": "Nov/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.97478059,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.28591247,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG08T",
+        "regadm_ipp": "TIJUCA                  ",
+        "objectid": 288
+      },
+      "geometry": {
+        "x": -43.28591247105451,
+        "y": -22.9747805888581
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "151",
+        "cod_ra_ipp": "26",
+        "bairro_com_dlu_ecop": "Guaratiba",
+        "globalid": "{513098D4-6B3C-4A72-89E3-FF140E1DAC64}",
+        "rp_nome": null,
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "BRISA",
+        "end_dlu_ecop": "Estrada do Piauí, 2005",
+        "bairro_ipp": "Guaratiba",
+        "inaug_dlu_ecop": "Ago/26",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.97796731,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.67195091,
+        "cod_rp_ipp": "5.4",
+        "dlu_ger": "OG26P",
+        "regadm_ipp": "GUARATIBA               ",
+        "objectid": 473
+      },
+      "geometry": {
+        "x": -43.67195091509001,
+        "y": -22.97796731487883
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "024",
+        "cod_ra_ipp": "5",
+        "bairro_com_dlu_ecop": "Pavão Pavãozinho",
+        "globalid": "{4E6D2194-DF2B-4BF2-A503-882166EC0D75}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "PAVÃO PAVÃOZINHO",
+        "end_dlu_ecop": "Estrada do Cantagalo, 80",
+        "bairro_ipp": "Copacabana",
+        "inaug_dlu_ecop": "Fev/24",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.98102172,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.19662063,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG05C",
+        "regadm_ipp": "COPACABANA              ",
+        "objectid": 275
+      },
+      "geometry": {
+        "x": -43.19662063429554,
+        "y": -22.981021723760303
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "073",
+        "cod_ra_ipp": "14",
+        "bairro_com_dlu_ecop": "Thomas Coelho",
+        "globalid": "{8BEE7A0E-8B1F-44B7-BFD7-EB86B0E6A95B}",
+        "rp_nome": "Madureira",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "THOMAS COELHO",
+        "end_dlu_ecop": "Avenida Pastor Martin Luther King Jr. ",
+        "bairro_ipp": "Vicente de Carvalho",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.86079659,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.30731316,
+        "cod_rp_ipp": "3.3",
+        "dlu_ger": "NG14I",
+        "regadm_ipp": "IRAJA                   ",
+        "objectid": 360
+      },
+      "geometry": {
+        "x": -43.30731316362881,
+        "y": -22.860796593371603
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "018",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Santo Amaro",
+        "globalid": "{1EE236BE-21F7-4DC4-AE8D-B29D94C7AB15}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "SANTO AMARO",
+        "end_dlu_ecop": "Rua Santo Amaro, em frente nº 349",
+        "bairro_ipp": "Catete",
+        "inaug_dlu_ecop": "Abr/22",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.92399005,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.18142739,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": "BOTAFOGO                ",
+        "objectid": 276
+      },
+      "geometry": {
+        "x": -43.18142738567442,
+        "y": -22.923990047718192
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "043",
+        "cod_ra_ipp": "11",
+        "bairro_com_dlu_ecop": "Penha",
+        "globalid": "{46A74BFC-6442-482D-AEF3-F000D26EBD4A}",
+        "rp_nome": "Penha",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PARQUE PROLETÁRIO",
+        "end_dlu_ecop": "Praça São Lucas, 1 A",
+        "bairro_ipp": "Penha",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.84669468,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.28440789,
+        "cod_rp_ipp": "3.5",
+        "dlu_ger": "NG11P",
+        "regadm_ipp": "PENHA                   ",
+        "objectid": 355
+      },
+      "geometry": {
+        "x": -43.28440789099863,
+        "y": -22.8466946772787
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "002",
+        "cod_ra_ipp": "1",
+        "bairro_com_dlu_ecop": "Santo Cristo",
+        "globalid": "{06FDBC7F-B125-41E8-9BF8-F79EA4E1C85C}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "PROVIDÊNCIA",
+        "end_dlu_ecop": "Rua Barão da Gamboa, 24",
+        "bairro_ipp": "Gamboa",
+        "inaug_dlu_ecop": "Set/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.89836034,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.19781157,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG01P",
+        "regadm_ipp": "PORTUARIA               ",
+        "objectid": 398
+      },
+      "geometry": {
+        "x": -43.19781156949526,
+        "y": -22.898360335527887
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "094",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Comunidade Boogie Woogie",
+        "globalid": "{F8E3546C-2D81-4964-A6F2-DDF49FBE5E3D}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "BOOGIE WOOGIE",
+        "end_dlu_ecop": "Rua dos Monjolos, com Campo de São João",
+        "bairro_ipp": "Pitangueiras",
+        "inaug_dlu_ecop": "Jul/23",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.81727768,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.18150261,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 363
+      },
+      "geometry": {
+        "x": -43.181502609698,
+        "y": -22.81727768372678
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "144",
+        "cod_ra_ipp": "18",
+        "bairro_com_dlu_ecop": "Campo Grande",
+        "globalid": "{D82C4F37-46A2-4D15-B998-6B8602E5D22C}",
+        "rp_nome": "Campo Grande",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "CAMPO GRANDE",
+        "end_dlu_ecop": "Avenida Maria Teresa, embaixo do viaduto de Campo Grande",
+        "bairro_ipp": "Campo Grande",
+        "inaug_dlu_ecop": "Jul/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.90426108,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.56605975,
+        "cod_rp_ipp": "5.2",
+        "dlu_ger": "OG18V",
+        "regadm_ipp": "CAMPO GRANDE            ",
+        "objectid": 426
+      },
+      "geometry": {
+        "x": -43.56605975081774,
+        "y": -22.904261075699697
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "149",
+        "cod_ra_ipp": "19",
+        "bairro_com_dlu_ecop": "Comunidade do Aço",
+        "globalid": "{A6B9B45E-2F85-4EA0-A029-C26DF4BF9A4E}",
+        "rp_nome": "Santa Cruz",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "MORAR CARIOCA DO AÇO",
+        "end_dlu_ecop": "Rua Massapê, 120",
+        "bairro_ipp": "Santa Cruz",
+        "inaug_dlu_ecop": "Dez/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.93333732,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.64979193,
+        "cod_rp_ipp": "5.3",
+        "dlu_ger": "OG19C",
+        "regadm_ipp": "SANTA CRUZ              ",
+        "objectid": 448
+      },
+      "geometry": {
+        "x": -43.64979192866968,
+        "y": -22.933337315885847
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "044",
+        "cod_ra_ipp": "11",
+        "bairro_com_dlu_ecop": "Comunidade Kelson",
+        "globalid": "{ADFCB517-04C5-4984-9573-86E193A4518C}",
+        "rp_nome": "Penha",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "KELSON",
+        "end_dlu_ecop": "Rua Kelson, s/n",
+        "bairro_ipp": "Penha Circular",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82297566,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.27474063,
+        "cod_rp_ipp": "3.5",
+        "dlu_ger": "NG11P",
+        "regadm_ipp": "PENHA                   ",
+        "objectid": 434
+      },
+      "geometry": {
+        "x": -43.2747406340024,
+        "y": -22.82297566493409
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "154",
+        "cod_ra_ipp": "27",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{FAAAADEC-416C-4F74-802E-0B393FBCF82E}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "ROCINHA - PASTOR ALMIR",
+        "end_dlu_ecop": "Estrada da Gávea, 486",
+        "bairro_ipp": "Rocinha",
+        "inaug_dlu_ecop": "Jan/26",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.98897193,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.25077227,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "ROCINHA",
+        "objectid": 454
+      },
+      "geometry": {
+        "x": -43.25077227209803,
+        "y": -22.988971932917345
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "151",
+        "cod_ra_ipp": "26",
+        "bairro_com_dlu_ecop": "Guaratiba",
+        "globalid": "{10242D1A-4512-403A-BC10-4158C7C8B6B8}",
+        "rp_nome": "Guaratiba",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "CINCO MARIAS",
+        "end_dlu_ecop": "Estrada do Margaça, 8.487",
+        "bairro_ipp": "Guaratiba",
+        "inaug_dlu_ecop": "Out/25",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.97839195,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.6389732,
+        "cod_rp_ipp": "5.4",
+        "dlu_ger": "OG26P",
+        "regadm_ipp": "GUARATIBA",
+        "objectid": 437
+      },
+      "geometry": {
+        "x": -43.63897320024409,
+        "y": -22.978391950339557
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "117",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Gardênia Azul",
+        "globalid": "{88E2BD9E-8F8B-4968-96DD-D8B20D6072EE}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "NOVA ESPERANÇA",
+        "end_dlu_ecop": "Rua Bocaiúva Cunha, s/n",
+        "bairro_ipp": "Gardênia Azul",
+        "inaug_dlu_ecop": "Jul/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.95746912,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.35397109,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16F",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 300
+      },
+      "geometry": {
+        "x": -43.353971093547415,
+        "y": -22.957469119397654
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "033",
+        "cod_ra_ipp": "8",
+        "bairro_com_dlu_ecop": "Morro da Formiga",
+        "globalid": "{0AC31EE3-9527-4128-9F7D-11BCFB17EA68}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "BAZANHA (MORRO DA FORMIGA)",
+        "end_dlu_ecop": "Rua Jucelina Fernandes, 01",
+        "bairro_ipp": "Tijuca",
+        "inaug_dlu_ecop": "Set/26",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.93820802,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.24358575,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG08T",
+        "regadm_ipp": "TIJUCA                  ",
+        "objectid": 474
+      },
+      "geometry": {
+        "x": -43.24358574960494,
+        "y": -22.938208015495672
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "127",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Rio das Pedras",
+        "globalid": "{B9D522A3-21E9-4340-AE53-459BFB5EFCBA}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "RIO DAS PEDRAS",
+        "end_dlu_ecop": "Avenida Engenheiro Souza Filho",
+        "bairro_ipp": "Itanhangá",
+        "inaug_dlu_ecop": "Nov/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.97808848,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.33421413,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24B",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 230
+      },
+      "geometry": {
+        "x": -43.33421413378832,
+        "y": -22.978088481786955
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "033",
+        "cod_ra_ipp": "8",
+        "bairro_com_dlu_ecop": "Turano",
+        "globalid": "{A466FB7A-20C2-4AA0-A3F5-206EB13C3F6D}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "TURANO",
+        "end_dlu_ecop": "Rua Joaquim Pizarro, 2",
+        "bairro_ipp": "Tijuca",
+        "inaug_dlu_ecop": "Dez/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.92245351,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.21532994,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG08T",
+        "regadm_ipp": "TIJUCA",
+        "objectid": 447
+      },
+      "geometry": {
+        "x": -43.21532993767564,
+        "y": -22.922453509994124
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "043",
+        "cod_ra_ipp": "11",
+        "bairro_com_dlu_ecop": "Penha Circular",
+        "globalid": "{1E00E987-419E-4BCB-AC41-EC675F4503E1}",
+        "rp_nome": "Penha",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "QUATRO BICAS",
+        "end_dlu_ecop": "Rua Paul Muller, com Rua Professor Otávio Freitas",
+        "bairro_ipp": "Penha",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.8461935,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.27962272,
+        "cod_rp_ipp": "3.5",
+        "dlu_ger": "NG11P",
+        "regadm_ipp": "PENHA                   ",
+        "objectid": 245
+      },
+      "geometry": {
+        "x": -43.27962271716675,
+        "y": -22.846193495763604
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "139",
+        "cod_ra_ipp": "33",
+        "bairro_com_dlu_ecop": "Realengo",
+        "globalid": "{3EBE56B5-145B-4861-BA22-D9C3D46C3F02}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "VILA JUREMA",
+        "end_dlu_ecop": "Rua Itajaí, 249",
+        "bairro_ipp": "Realengo",
+        "inaug_dlu_ecop": "Ago/22",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.86316703,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.43811601,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG33R",
+        "regadm_ipp": "REALENGO                ",
+        "objectid": 344
+      },
+      "geometry": {
+        "x": -43.43811600863147,
+        "y": -22.863167033923585
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "014",
+        "cod_ra_ipp": "23",
+        "bairro_com_dlu_ecop": "Fogueteiro",
+        "globalid": "{21D4705C-7496-41BD-A08D-69D82BD3C30A}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "FOGUETEIRO",
+        "end_dlu_ecop": "Rua Barão de Petrópolis, 786",
+        "bairro_ipp": "Santa Teresa",
+        "inaug_dlu_ecop": "Nov/22",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.93240921,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.20137378,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG03R",
+        "regadm_ipp": "SANTA TEREZA            ",
+        "objectid": 292
+      },
+      "geometry": {
+        "x": -43.20137378216057,
+        "y": -22.932409207862015
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "018",
+        "cod_ra_ipp": "4",
+        "bairro_com_dlu_ecop": "Tavares Bastos",
+        "globalid": "{06DDB5AE-EE20-48C4-9AC3-B01BD1DFE034}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "TAVARES BASTOS",
+        "end_dlu_ecop": "Rua Tavavres Bastos",
+        "bairro_ipp": "Catete",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.92793386,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.18319763,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG04B",
+        "regadm_ipp": "BOTAFOGO",
+        "objectid": 439
+      },
+      "geometry": {
+        "x": -43.1831976274268,
+        "y": -22.927933857396877
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "011",
+        "cod_ra_ipp": "7",
+        "bairro_com_dlu_ecop": "Mangueira",
+        "globalid": "{1C670C83-3DB1-4870-A835-30F5AF4BE475}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "JUPARÁ",
+        "end_dlu_ecop": "Rua Jupará",
+        "bairro_ipp": "Mangueira",
+        "inaug_dlu_ecop": "Jul/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.90196782,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.23624948,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG07S",
+        "regadm_ipp": "SAO CRISTOVAO           ",
+        "objectid": 291
+      },
+      "geometry": {
+        "x": -43.236249478881234,
+        "y": -22.90196782043402
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "132",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Recreio",
+        "globalid": "{BD5B8DFB-36F2-4AD3-B980-C35D45A6D40C}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "BEIRA RIO - PANTANAL",
+        "end_dlu_ecop": "Rua Célia Ribeiro da Silva Mendes",
+        "bairro_ipp": "Recreio dos Bandeirantes",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -23.00129398,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.44207983,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 239
+      },
+      "geometry": {
+        "x": -43.442079832009135,
+        "y": -23.001293978936722
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "140",
+        "cod_ra_ipp": "17",
+        "bairro_com_dlu_ecop": "Vila Vintém",
+        "globalid": "{92F9BAF1-9CA8-42C9-BD9C-36E05321A8E8}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "VILA VINTÉM",
+        "end_dlu_ecop": "Rua Santo Everardo, ao lado do CIEP",
+        "bairro_ipp": "Padre Miguel",
+        "inaug_dlu_ecop": "Nov/23",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.8741239,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.4475034,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG17B",
+        "regadm_ipp": "BANGU                   ",
+        "objectid": 322
+      },
+      "geometry": {
+        "x": -43.4475034033505,
+        "y": -22.874123900953418
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "033",
+        "cod_ra_ipp": "8",
+        "bairro_com_dlu_ecop": "Salgueiro",
+        "globalid": "{5190ED1F-6C98-4D66-BB5D-21C04B683C4B}",
+        "rp_nome": "Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "SALGUEIRO I",
+        "end_dlu_ecop": "Rua General Rocca, 99",
+        "bairro_ipp": "Tijuca",
+        "inaug_dlu_ecop": "Nov/25",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "2",
+        "point_y": -22.92829422,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.2282323,
+        "cod_rp_ipp": "2.2",
+        "dlu_ger": "CG08T",
+        "regadm_ipp": "TIJUCA                  ",
+        "objectid": 202
+      },
+      "geometry": {
+        "x": -43.228232297041444,
+        "y": -22.928294223288113
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "132",
+        "cod_ra_ipp": "24",
+        "bairro_com_dlu_ecop": "Recreio",
+        "globalid": "{43F7D641-02A2-43EB-B184-CB91496C1813}",
+        "rp_nome": "Barra da Tijuca",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "BEIRA RIO - SERVIDÃO – G7",
+        "end_dlu_ecop": "Rua da Servidão - G7",
+        "bairro_ipp": "Recreio dos Bandeirantes",
+        "inaug_dlu_ecop": "Dez/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -23.00332149,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.45095867,
+        "cod_rp_ipp": "4.2",
+        "dlu_ger": "BG24R",
+        "regadm_ipp": "BARRA DA TIJUCA         ",
+        "objectid": 237
+      },
+      "geometry": {
+        "x": -43.450958671581226,
+        "y": -23.003321492000268
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "113",
+        "cod_ra_ipp": "25",
+        "bairro_com_dlu_ecop": "Costa Barros",
+        "globalid": "{CA84E284-DBD4-4007-890D-CBFD4B2A0564}",
+        "rp_nome": "Pavuna",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "COSTA BARROS",
+        "end_dlu_ecop": "Estrada de Botafogo, próximo à UPA",
+        "bairro_ipp": "Costa Barros",
+        "inaug_dlu_ecop": "Mai/23",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82139329,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.3668593,
+        "cod_rp_ipp": "3.6",
+        "dlu_ger": "NG25F",
+        "regadm_ipp": "PAVUNA                  ",
+        "objectid": 242
+      },
+      "geometry": {
+        "x": -43.36685930467535,
+        "y": -22.8213932912028
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "141",
+        "cod_ra_ipp": "17",
+        "bairro_com_dlu_ecop": "Vila Kennedy",
+        "globalid": "{237288BF-1174-4498-80FC-0160637F6268}",
+        "rp_nome": "Bangu",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Oeste",
+        "nome_dlu_ecop": "VILA KENNEDY",
+        "end_dlu_ecop": "Avenida Brasil, 38.048",
+        "bairro_ipp": "Bangu",
+        "inaug_dlu_ecop": "Jan/24",
+        "dlu_super": "LRO",
+        "areaplan_ipp": "5",
+        "point_y": -22.85634873,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.49577248,
+        "cod_rp_ipp": "5.1",
+        "dlu_ger": "OG17B",
+        "regadm_ipp": "BANGU                   ",
+        "objectid": 243
+      },
+      "geometry": {
+        "x": -43.49577248329071,
+        "y": -22.856348726490204
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "104",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Vila Joaniza",
+        "globalid": "{95683394-DC32-4A32-BE49-78BD067D87B0}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "VILA JOANIZA",
+        "end_dlu_ecop": "Estrada das Canárias, s/n",
+        "bairro_ipp": "Galeão",
+        "inaug_dlu_ecop": "Out/22",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.81139238,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.22791566,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 253
+      },
+      "geometry": {
+        "x": -43.22791566246338,
+        "y": -22.811392380205213
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "030",
+        "cod_ra_ipp": "6",
+        "bairro_com_dlu_ecop": "Vidigal",
+        "globalid": "{E5A687E7-A861-4707-98A8-8DD9E43FCAD7}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "BIQUINHA VIDIGAL",
+        "end_dlu_ecop": "AV. JOÃO GOULART, s/n (UPP)",
+        "bairro_ipp": "Vidigal",
+        "inaug_dlu_ecop": "Mai/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.9959875,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.24054447,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "LAGOA                   ",
+        "objectid": 273
+      },
+      "geometry": {
+        "x": -43.24054446708674,
+        "y": -22.9959875041468
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "043",
+        "cod_ra_ipp": "11",
+        "bairro_com_dlu_ecop": "Comunidade Merindiba",
+        "globalid": "{5DFF2BF9-9FA6-4AAB-8B41-96116962C5AD}",
+        "rp_nome": "Penha",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "MERINDIBA",
+        "end_dlu_ecop": "Rua Jacupema, s/n próximo ao largo da Penha",
+        "bairro_ipp": "Penha",
+        "inaug_dlu_ecop": "Out/22",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.84609527,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.27777724,
+        "cod_rp_ipp": "3.5",
+        "dlu_ger": "NG11P",
+        "regadm_ipp": "PENHA                   ",
+        "objectid": 246
+      },
+      "geometry": {
+        "x": -43.277777239806625,
+        "y": -22.84609526969251
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "100",
+        "cod_ra_ipp": "20",
+        "bairro_com_dlu_ecop": "Morro do Guarabu",
+        "globalid": "{E906B525-1A3E-41D2-BB38-50D69103CEF5}",
+        "rp_nome": "Ilha do Governador",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "GUARABU",
+        "end_dlu_ecop": "Rua Berna, lado oposto ao nº 142",
+        "bairro_ipp": "Jardim Carioca",
+        "inaug_dlu_ecop": "Jan/24",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.80349054,
+        "inauguracao_dlu_ecop": "INAUGURADO 2024",
+        "point_x": -43.19452505,
+        "cod_rp_ipp": "3.7",
+        "dlu_ger": "CG20G",
+        "regadm_ipp": "ILHA DO GOVERNADOR      ",
+        "objectid": 260
+      },
+      "geometry": {
+        "x": -43.194525045299116,
+        "y": -22.803490535974838
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "154",
+        "cod_ra_ipp": "27",
+        "bairro_com_dlu_ecop": "Rocinha",
+        "globalid": "{215B352B-FF96-48A3-9E93-EDB49A2FC0FD}",
+        "rp_nome": "Zona Sul",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sul e Grande Tijuca",
+        "nome_dlu_ecop": "UMUARAMA",
+        "end_dlu_ecop": "Rua Umuarama",
+        "bairro_ipp": "Rocinha",
+        "inaug_dlu_ecop": "Dez/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "2",
+        "point_y": -22.98587177,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.24238828,
+        "cod_rp_ipp": "2.1",
+        "dlu_ger": "SG27R",
+        "regadm_ipp": "ROCINHA                 ",
+        "objectid": 270
+      },
+      "geometry": {
+        "x": -43.242388283461906,
+        "y": -22.985871768726014
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "158",
+        "cod_ra_ipp": "7",
+        "bairro_com_dlu_ecop": "São Cristóvão",
+        "globalid": "{2CB554C4-FCD4-40B9-8144-72AA27CB292C}",
+        "rp_nome": "Centro",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Centro",
+        "nome_dlu_ecop": "BARREIRA DO VASCO",
+        "end_dlu_ecop": "Rua Bela, sn",
+        "bairro_ipp": "Vasco da Gama",
+        "inaug_dlu_ecop": "Ago/25",
+        "dlu_super": "LRS",
+        "areaplan_ipp": "1",
+        "point_y": -22.88700904,
+        "inauguracao_dlu_ecop": "INAUGURADO 2025",
+        "point_x": -43.22651825,
+        "cod_rp_ipp": "1.1",
+        "dlu_ger": "SG07S",
+        "regadm_ipp": "SAO CRISTOVAO           ",
+        "objectid": 110
+      },
+      "geometry": {
+        "x": -43.22651824680068,
+        "y": -22.887009043779983
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "157",
+        "cod_ra_ipp": "30",
+        "bairro_com_dlu_ecop": "Maré",
+        "globalid": "{982E9E77-233C-49FD-90F4-791B0F772416}",
+        "rp_nome": "Ramos",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "ROQUETE PINTO",
+        "end_dlu_ecop": "Travessa Roquete Pinto",
+        "bairro_ipp": "Maré",
+        "inaug_dlu_ecop": "Mai/26",
+        "dlu_super": "LRC",
+        "areaplan_ipp": "3",
+        "point_y": -22.84209117,
+        "inauguracao_dlu_ecop": "INAUGURADO 2026",
+        "point_x": -43.24617473,
+        "cod_rp_ipp": "3.1",
+        "dlu_ger": "CG10R",
+        "regadm_ipp": "COMPLEXO DA MARE        ",
+        "objectid": 34
+      },
+      "geometry": {
+        "x": -43.24617472819856,
+        "y": -22.84209117297938
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "115",
+        "cod_ra_ipp": "16",
+        "bairro_com_dlu_ecop": "Taquara",
+        "globalid": "{6D38694E-5E24-4E6A-8589-3284EDE54920}",
+        "rp_nome": "Jacarepaguá",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Sudoeste",
+        "nome_dlu_ecop": "TEIXEIRA BRANDÃO",
+        "end_dlu_ecop": "Avenida Teixeira Brandão",
+        "bairro_ipp": "Jacarepaguá",
+        "inaug_dlu_ecop": "Ago/23",
+        "dlu_super": "LRB",
+        "areaplan_ipp": "4",
+        "point_y": -22.94820684,
+        "inauguracao_dlu_ecop": "INAUGURADO 2023",
+        "point_x": -43.39403849,
+        "cod_rp_ipp": "4.1",
+        "dlu_ger": "BG16J",
+        "regadm_ipp": "JACAREPAGUA             ",
+        "objectid": 226
+      },
+      "geometry": {
+        "x": -43.394038488468205,
+        "y": -22.948206843001632
+      }
+    },
+    {
+      "attributes": {
+        "cod_bairro_ipp": "111",
+        "cod_ra_ipp": "25",
+        "bairro_com_dlu_ecop": "Irajá / Amarelinho",
+        "globalid": "{774EEF7C-ECFC-46FF-8130-BA8F43AD4437}",
+        "rp_nome": "Pavuna",
+        "tiporesiduo_dlu_ecop": "Lixo domiciliar, entulho, bens inservíveis e galhada",
+        "regiao": "Zona Norte",
+        "nome_dlu_ecop": "PRAÇA DO AMARELINHO",
+        "end_dlu_ecop": "Avenida Brasil, 18500",
+        "bairro_ipp": "Acari",
+        "inaug_dlu_ecop": "Set/22",
+        "dlu_super": "LRN",
+        "areaplan_ipp": "3",
+        "point_y": -22.82649844,
+        "inauguracao_dlu_ecop": "INAUGURADO 2022",
+        "point_x": -43.33965207,
+        "cod_rp_ipp": "3.6",
+        "dlu_ger": "NG25F",
+        "regadm_ipp": "PAVUNA                  ",
+        "objectid": 240
+      },
+      "geometry": {
+        "x": -43.33965207368267,
+        "y": -22.826498436696415
+      }
+    }
+  ],
+  "exceededTransferLimit": false,
+  "hasM": false,
+  "globalIdFieldName": "globalid",
+  "objectIdFieldName": "objectid",
+  "fields": [
+    {
+      "visible": true,
+      "defaultValue": null,
+      "length": 4,
+      "type": "esriFieldTypeOID",
+      "modelName": "OBJECTID_12_13",
+      "name": "objectid",
+      "alias": "OBJECTID_12_13"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "type": "esriFieldTypeDouble",
+      "modelName": "POINT_X",
+      "name": "point_x",
+      "alias": "POINT_X"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "type": "esriFieldTypeDouble",
+      "modelName": "POINT_Y",
+      "name": "point_y",
+      "alias": "POINT_Y"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "length": 38,
+      "type": "esriFieldTypeGlobalID",
+      "modelName": "GlobalID",
+      "name": "globalid",
+      "alias": "GlobalID"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "bairro_ipp",
+      "length": 255,
+      "alias": "Bairro_IPP",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "regadm_ipp",
+      "length": 255,
+      "alias": "RegAdm_IPP",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "areaplan_ipp",
+      "length": 255,
+      "alias": "AreaPlan_IPP",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "cod_bairro_ipp",
+      "length": 255,
+      "alias": "Cod_Bairro_Ipp",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "cod_ra_ipp",
+      "length": 255,
+      "alias": "Cod_RA_Ipp",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "cod_rp_ipp",
+      "length": 255,
+      "alias": "Cod_RP_IPP",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "name": "dlu_super",
+      "length": 255,
+      "alias": "DLU_SUPER",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "name": "dlu_ger",
+      "length": 255,
+      "alias": "DLU_GER",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "name": "rp_nome",
+      "length": 255,
+      "alias": "RP_NOME",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "nome_dlu_ecop",
+      "length": 1000,
+      "alias": "nome_DLU_ecop",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "end_dlu_ecop",
+      "length": 1000,
+      "alias": "End_DLU_ecop",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "inaug_dlu_ecop",
+      "length": 255,
+      "alias": "inaug_DLU_ecop",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "bairro_com_dlu_ecop",
+      "length": 1000,
+      "alias": "bairro_com_DLU_ecop",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "tiporesiduo_dlu_ecop",
+      "length": 1000,
+      "alias": "TipoResiduo_DLU_ecop",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "defaultValue": null,
+      "name": "inauguracao_dlu_ecop",
+      "length": 255,
+      "alias": "inauguracao_dlu_ecop",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "visible": true,
+      "quotesRequired": true,
+      "defaultValue": null,
+      "name": "regiao",
+      "length": 8000,
+      "alias": "Nome, Regiao DLU",
+      "type": "esriFieldTypeString"
+    }
+  ],
+  "spatialReference": {
+    "latestWkid": 4326,
+    "wkid": 4326
+  },
+  "geometryType": "esriGeometryPoint"
+}
