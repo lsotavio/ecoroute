@@ -26,7 +26,7 @@ describe('Front-End HTTP Client Integration with Back-End API', () => {
   it('deve consultar o status de saúde da API via cliente HTTP do Front-End', async () => {
     const health = await client.getHealth();
     expect(health.status).toBe('UP');
-    expect(health.service).toBe('EcoRoute API');
+    expect(health.service).toBe('Ecoroute RJ API');
     expect(health.database.mode).toBeDefined();
   });
 

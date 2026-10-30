@@ -23,7 +23,8 @@ export class SchedulesService {
     const scheduledDate = new Date(year, month - 1, day);
     scheduledDate.setHours(0, 0, 0, 0);
 
-    if (isNaN(scheduledDate.getTime())) {
+    if (isNaN(scheduledDate.getTime()) || scheduledDate.getFullYear() !== year ||
+        scheduledDate.getMonth() !== month - 1 || scheduledDate.getDate() !== day) {
       throw AppError.badRequest(
         'Data informada é inválida.',
         'https://api.ecoroute.com/errors/invalid-date'

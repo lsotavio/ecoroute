@@ -1,7 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { App } from './App';
-import './styles.css';
+import { RioApp } from './RioApp';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -10,6 +9,6 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <App />
+    <RioApp />
   </StrictMode>
 );

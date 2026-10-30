@@ -334,165 +334,40 @@ export const BRAZILIAN_CAPITALS: BrazilianCapital[] = [
   },
 ];
 
-const UF_CAPITAL_FALLBACK: Record<string, { lat: number; lng: number; cidade: string }> = Object.fromEntries(
-  BRAZILIAN_CAPITALS.map((c) => [c.uf, { lat: c.lat, lng: c.lng, cidade: c.cidade }])
-);
-
 export async function lookupCepLocation(rawCep: string): Promise<LocationGeoResult> {
-  const cleanCep = rawCep.replace(/\D/g, '');
-  if (cleanCep.length !== 8) {
-    throw new Error('Informe um CEP válido contendo exatamente 8 dígitos (ex: 22775-055).');
-  }
-
-  let viacepData: {
-    cep: string;
-    logradouro?: string;
-    bairro?: string;
-    localidade?: string;
-    uf?: string;
-    erro?: boolean;
-  };
-
+  const cep = rawCep.replace(/\D/g, '');
+  if (cep.length !== 8) throw new Error('Informe um CEP com exatamente 8 dígitos.');
   try {
-    const res = await fetch(`https://viacep.com.br/ws/${cleanCep}/json/`);
-    if (!res.ok) {
-      throw new Error(`Serviço ViaCEP indisponível (HTTP ${res.status}).`);
+    const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+    if (!response.ok) throw new Error(`ViaCEP indisponível (HTTP ${response.status}).`);
+    const address = await response.json();
+    if (!address || typeof address !== 'object' || Array.isArray(address)) throw new Error('Resposta inválida do ViaCEP.');
+    if (address.erro === true || address.erro === 'true') throw new Error('CEP não encontrado.');
+    const { localidade: cidade, uf, bairro = '', logradouro = '' } = address;
+    if (typeof cidade !== 'string' || !cidade.trim() || typeof uf !== 'string' ||
+        !/^[A-Z]{2}$/.test(uf) || typeof bairro !== 'string' || typeof logradouro !== 'string') {
+      throw new Error('Endereço inválido retornado pelo ViaCEP.');
     }
-    viacepData = await res.json();
-  } catch (netErr) {
-    throw new Error('Falha de conexão ao consultar o CEP no ViaCEP.');
-  }
-
-  if (viacepData.erro || !viacepData.localidade || !viacepData.uf) {
-    // Fallback inteligente por prefixo postal brasileiro
-    const prefix2 = parseInt(cleanCep.slice(0, 2), 10);
-    let guessedUf = '';
-    if (prefix2 >= 1 && prefix2 <= 19) guessedUf = 'SP';
-    else if (prefix2 >= 20 && prefix2 <= 28) guessedUf = 'RJ';
-    else if (prefix2 === 29) guessedUf = 'ES';
-    else if (prefix2 >= 30 && prefix2 <= 39) guessedUf = 'MG';
-    else if (prefix2 >= 40 && prefix2 <= 48) guessedUf = 'BA';
-    else if (prefix2 === 49) guessedUf = 'SE';
-    else if (prefix2 >= 50 && prefix2 <= 56) guessedUf = 'PE';
-    else if (prefix2 === 57) guessedUf = 'AL';
-    else if (prefix2 === 58) guessedUf = 'PB';
-    else if (prefix2 === 59) guessedUf = 'RN';
-    else if (prefix2 >= 60 && prefix2 <= 63) guessedUf = 'CE';
-    else if (prefix2 === 64) guessedUf = 'PI';
-    else if (prefix2 === 65) guessedUf = 'MA';
-    else if (prefix2 >= 66 && prefix2 <= 68) guessedUf = 'PA';
-    else if (prefix2 === 69) guessedUf = 'AM';
-    else if (prefix2 >= 70 && prefix2 <= 72) guessedUf = 'DF';
-    else if (prefix2 >= 73 && prefix2 <= 76) guessedUf = 'GO';
-    else if (prefix2 === 77) guessedUf = 'TO';
-    else if (prefix2 === 78) guessedUf = 'MT';
-    else if (prefix2 === 79) guessedUf = 'MS';
-    else if (prefix2 >= 80 && prefix2 <= 87) guessedUf = 'PR';
-    else if (prefix2 >= 88 && prefix2 <= 89) guessedUf = 'SC';
-    else if (prefix2 >= 90 && prefix2 <= 99) guessedUf = 'RS';
-
-    if (guessedUf && UF_CAPITAL_FALLBACK[guessedUf]) {
-      const fb = UF_CAPITAL_FALLBACK[guessedUf];
-      return {
-        lat: fb.lat,
-        lng: fb.lng,
-        label: `${fb.cidade} - ${guessedUf} (Região aproximada do CEP ${cleanCep.replace(/(\d{5})(\d{3})/, '$1-$2')})`,
-        cidade: fb.cidade,
-        uf: guessedUf,
-      };
-    }
-
-    throw new Error(`CEP ${cleanCep} não localizado nos Correios. Verifique o número digitado.`);
-  }
-
-  const cidade = viacepData.localidade;
-  const uf = viacepData.uf.toUpperCase();
-  const bairro = viacepData.bairro || '';
-  const logradouro = viacepData.logradouro || '';
-
-  // 1. Tenta geocodificar com alta precisão via OpenStreetMap Nominatim
-  try {
-    const queryParts = [logradouro, bairro, cidade, uf, 'Brasil'].filter((p) => p.length > 0);
-    const nominatimUrl = `https://nominatim.openstreetmap.org/search?format=json&country=Brazil&state=${encodeURIComponent(
-      uf
-    )}&city=${encodeURIComponent(cidade)}&q=${encodeURIComponent(queryParts.join(', '))}&limit=1`;
-
-    const geoRes = await fetch(nominatimUrl, {
-      headers: {
-        'Accept-Language': 'pt-BR,pt;q=0.9',
-      },
+    const query = new URLSearchParams({
+      format: 'json', countrycodes: 'br', limit: '1',
+      q: [logradouro, bairro, cidade, uf, 'Brasil'].filter(Boolean).join(', '),
     });
-
-    if (geoRes.ok) {
-      const geoList = await geoRes.json();
-      if (Array.isArray(geoList) && geoList.length > 0 && geoList[0].lat && geoList[0].lon) {
-        return {
-          lat: Number(Number(geoList[0].lat).toFixed(6)),
-          lng: Number(Number(geoList[0].lon).toFixed(6)),
-          label: `${bairro ? bairro + ', ' : ''}${cidade} - ${uf} (CEP ${cleanCep.replace(/(\d{5})(\d{3})/, '$1-$2')})`,
-          bairro,
-          cidade,
-          uf,
-        };
-      }
-    }
-  } catch {
-    // Continua para o resolvedor local em caso de falha de rede do Nominatim
-  }
-
-  // 2. Busca de bairro na base de capitais
-  const capitalMatch = BRAZILIAN_CAPITALS.find(
-    (c) => c.uf === uf && c.cidade.toLowerCase() === cidade.toLowerCase()
-  );
-
-  if (capitalMatch && bairro) {
-    const bMatch = capitalMatch.bairros.find(
-      (b) =>
-        b.nome.toLowerCase().includes(bairro.toLowerCase()) ||
-        bairro.toLowerCase().includes(b.nome.toLowerCase())
-    );
-    if (bMatch) {
-      return {
-        lat: bMatch.lat,
-        lng: bMatch.lng,
-        label: `${bairro}, ${cidade} - ${uf}`,
-        bairro,
-        cidade,
-        uf,
-      };
-    }
-  }
-
-  // 3. Fallback para as coordenadas da capital
-  if (capitalMatch) {
-    return {
-      lat: capitalMatch.lat,
-      lng: capitalMatch.lng,
-      label: `${bairro ? bairro + ', ' : ''}${cidade} - ${uf}`,
-      bairro,
-      cidade,
-      uf,
+    const geoResponse = await fetch(`https://nominatim.openstreetmap.org/search?${query}`);
+    if (!geoResponse.ok) throw new Error(`Localização indisponível (HTTP ${geoResponse.status}).`);
+    const results = await geoResponse.json();
+    if (!Array.isArray(results) || !results.length) throw new Error('Endereço não localizado. Selecione a região manualmente.');
+    const coordinate = (value: unknown, bound: number): number => {
+      if (typeof value !== 'string' || !value.trim()) throw new Error('Coordenada inválida.');
+      const number = Number(value);
+      if (!Number.isFinite(number) || Math.abs(number) > bound) throw new Error('Coordenada inválida.');
+      return number;
     };
-  }
-
-  const ufFallback = UF_CAPITAL_FALLBACK[uf];
-  if (ufFallback) {
     return {
-      lat: ufFallback.lat,
-      lng: ufFallback.lng,
-      label: `${cidade} - ${uf}`,
-      bairro,
-      cidade,
-      uf,
+      lat: coordinate(results[0]?.lat, 90), lng: coordinate(results[0]?.lon, 180),
+      label: `${bairro ? bairro + ', ' : ''}${cidade} - ${uf} (CEP ${cep})`,
+      bairro, cidade, uf,
     };
+  } catch (cause) {
+    throw new Error(cause instanceof Error ? cause.message : 'Falha ao consultar localização.', { cause });
   }
-
-  return {
-    lat: -15.7942,
-    lng: -47.8822,
-    label: `${cidade} - ${uf}`,
-    bairro,
-    cidade,
-    uf,
-  };
 }

@@ -2,7 +2,6 @@ import dotenv from 'dotenv';
 import { buildApp } from './app';
 import { dbProvider } from './shared/database/database.provider';
 import { initDatabase } from './shared/database/init-db';
-import { seedDatabase } from './shared/database/seed';
 
 dotenv.config();
 
@@ -13,14 +12,13 @@ async function bootstrap() {
   const isDbConnected = await dbProvider.checkConnection();
   if (isDbConnected) {
     await initDatabase();
-    await seedDatabase();
   }
 
   const app = await buildApp({ logger: true });
 
   try {
     await app.listen({ port: PORT, host: HOST });
-    console.log(`EcoRoute API listening on http://localhost:${PORT}`);
+    console.log(`Ecoroute RJ API listening on http://localhost:${PORT}`);
   } catch (err) {
     app.log.error(err);
     process.exit(1);

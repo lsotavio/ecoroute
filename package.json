@@ -1,7 +1,7 @@
 {
-  "name": "ecoroute",
+  "name": "ecoroute-rj",
   "version": "1.1.0",
-  "description": "Sistema full-stack (API RESTful e interface React) para mapeamento geoespacial de pontos de coleta e agendamento de descarte de resíduos eletroeletrônicos (ODS 11.6).",
+  "description": "Catálogo de ecopontos da Comlurb e planejamento pessoal de descarte na cidade do Rio de Janeiro (ODS 11.6).",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",

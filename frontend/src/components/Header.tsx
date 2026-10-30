@@ -32,7 +32,7 @@ export function Header({
           </div>
           <div>
             <div className="brand-title-row">
-              <h1>EcoRoute</h1>
+              <h1>Ecoroute RJ</h1>
               <span className="ods-tag">ODS 11 — Meta 11.6</span>
             </div>
             <p className="brand-subtitle">

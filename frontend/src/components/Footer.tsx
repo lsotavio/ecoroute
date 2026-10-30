@@ -21,7 +21,7 @@ export function Footer({ health, onSelectTab }: FooterProps) {
                 </svg>
               </div>
               <div>
-                <strong>EcoRoute</strong>
+                <strong>Ecoroute RJ</strong>
                 <span className="footer-ods-badge">ODS 11 — Meta 11.6</span>
               </div>
             </div>
@@ -94,7 +94,7 @@ export function Footer({ health, onSelectTab }: FooterProps) {
         </div>
 
         <div className="footer-bottom-bar">
-          <span>&copy; {new Date().getFullYear()} EcoRoute — Gestão Urbana de E-Waste. Todos os direitos reservados.</span>
+          <span>&copy; {new Date().getFullYear()} Ecoroute RJ — Gestão Urbana de E-Waste. Todos os direitos reservados.</span>
           <span>Projeto Final Integrado | Código aberto sob licença MIT</span>
         </div>
       </div>

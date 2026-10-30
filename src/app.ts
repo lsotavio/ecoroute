@@ -1,4 +1,5 @@
 import cors from '@fastify/cors';
+import { rioRoutes } from './modules/rio/rio.routes';
 import helmet from '@fastify/helmet';
 import fastifySwagger from '@fastify/swagger';
 import fastifySwaggerUi from '@fastify/swagger-ui';
@@ -52,7 +53,7 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
     openapi: {
       openapi: '3.0.3',
       info: {
-        title: 'EcoRoute API',
+        title: 'Ecoroute RJ API',
         description:
           'API RESTful para mapeamento geoespacial e agendamento de descarte responsável de resíduos eletroeletrônicos (e-waste). Projeto alinhado ao ODS 11 (Cidades e Comunidades Sustentáveis) - Meta 11.6.',
         version: '1.0.0',
@@ -116,7 +117,7 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
       return reply.status(200).send({
         status: 'UP',
         timestamp: new Date().toISOString(),
-        service: 'EcoRoute API',
+        service: 'Ecoroute RJ API',
         version: '1.0.0',
         ods: 'ODS 11 - Cidades e Comunidades Sustentáveis',
         database: {
@@ -139,5 +140,6 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
     prefix: '/api/v1/schedules',
   });
 
+  await app.register(rioRoutes, { prefix: '/api/v1/rio' });
   return app;
 }

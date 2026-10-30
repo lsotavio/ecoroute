@@ -179,7 +179,7 @@ export class PostgresSchedulesRepository implements ISchedulesRepository {
 export class InMemorySchedulesRepository implements ISchedulesRepository {
   private items: ScheduleItem[] = [];
 
-  constructor(initialData: ScheduleItem[] = SEED_SCHEDULES) {
+  constructor(initialData: ScheduleItem[] = process.env.NODE_ENV === 'test' ? SEED_SCHEDULES : []) {
     this.items = initialData.map((item) => ({
       ...item,
       created_at: item.created_at || new Date().toISOString(),

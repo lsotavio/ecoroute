@@ -156,8 +156,15 @@ function assertString(value: unknown, field: string): string {
 }
 
 function assertNumber(value: unknown, field: string): number {
-  if (typeof value !== 'number' || Number.isNaN(value)) {
+  if (typeof value !== 'number' || !Number.isFinite(value)) {
     throw new Error(`Violação de contrato na fronteira de rede: número esperado em '${field}'.`);
+  }
+  return value;
+}
+
+function assertBoolean(value: unknown, field: string): boolean {
+  if (typeof value !== 'boolean') {
+    throw new Error(`Violação de contrato: booleano esperado em '${field}'.`);
   }
   return value;
 }
@@ -177,7 +184,7 @@ function parseCollectionPoint(raw: unknown): CollectionPoint {
     distance_km: typeof obj.distance_km === 'number' ? obj.distance_km : undefined,
     accepted_categories: obj.accepted_categories.map((item) => assertString(item, 'category')),
     max_daily_capacity: assertNumber(obj.max_daily_capacity, 'max_daily_capacity'),
-    is_active: Boolean(obj.is_active),
+    is_active: assertBoolean(obj.is_active, 'is_active'),
     created_at: typeof obj.created_at === 'string' ? obj.created_at : undefined,
   };
 }
@@ -231,7 +238,7 @@ function parseHealthStatus(raw: unknown): HealthStatus {
     version: assertString(obj.version, 'version'),
     ods: assertString(obj.ods, 'ods'),
     database: {
-      connected: Boolean(db.connected),
+      connected: assertBoolean(db.connected, 'database.connected'),
       mode: assertString(db.mode, 'database.mode'),
     },
   };

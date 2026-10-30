@@ -1,5 +1,11 @@
 # Dependencies
 node_modules/
+.venv/
+__pycache__/
+_resultados/
+data/local/
+data/revisao/
+entrega/
 .pnp
 .pnp.js
 

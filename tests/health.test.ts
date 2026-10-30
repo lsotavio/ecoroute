@@ -23,7 +23,7 @@ describe('Health and System Routes', () => {
     expect(response.statusCode).toBe(200);
     const body = JSON.parse(response.payload);
     expect(body.status).toBe('UP');
-    expect(body.service).toBe('EcoRoute API');
+    expect(body.service).toBe('Ecoroute RJ API');
     expect(body.ods).toContain('ODS 11');
     expect(body.database).toBeDefined();
   });

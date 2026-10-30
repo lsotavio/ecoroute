@@ -1,6 +1,7 @@
 import { FormEvent, useEffect, useState } from 'react';
 import {
   ALL_WASTE_CATEGORIES,
+  ApiRequestError,
   CollectionPoint,
   CreateSchedulePayload,
   SCHEDULE_STATUS_LABELS,
@@ -63,6 +64,7 @@ export function SchedulesPanel({
   const [filterStatus, setFilterStatus] = useState('');
   const [lookupId, setLookupId] = useState('');
   const [resolvedPointsMap, setResolvedPointsMap] = useState<Record<string, CollectionPoint>>({});
+  const [pointErrors, setPointErrors] = useState<Record<string, string>>({});
 
   useEffect(() => {
     const missingIds = Array.from(
@@ -78,8 +80,19 @@ export function SchedulesPanel({
       missingIds.map(async (id) => {
         try {
           const pt = await ecorouteApi.getPointById(id);
+          if (!cancelled) setPointErrors((prev) => {
+            const next = { ...prev };
+            delete next[id];
+            return next;
+          });
           return [id, pt] as const;
-        } catch {
+        } catch (error) {
+          if (!cancelled) setPointErrors((prev) => ({
+            ...prev,
+            [id]: error instanceof ApiRequestError && error.status === 404
+              ? 'Ponto removido ou indisponível.'
+              : 'Falha ao consultar ponto. Atualize a página para tentar novamente.',
+          }));
           return null;
         }
       })
@@ -396,6 +409,7 @@ export function SchedulesPanel({
                       {SCHEDULE_STATUS_LABELS[sched.status]}
                     </span>
                     <h3>{resolvePointName(sched.collection_point_id)}</h3>
+                    {pointErrors[sched.collection_point_id] && <p role="alert">{pointErrors[sched.collection_point_id]}</p>}
                   </div>
                   <div className="schedule-date-box">
                     <span>Data Prevista</span>

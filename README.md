@@ -1,44 +1,48 @@
-# EcoRoute
+# Ecoroute RJ
 
 ## Visão Geral
 
-Aplicação full-stack composta por API RESTful (Node.js, Fastify, PostgreSQL/PostGIS) e interface web (React, TypeScript) para localização geoespacial de Pontos de Entrega Voluntária (PEV) e agendamento de descarte de resíduos eletroeletrônicos. O sistema atende à Meta 11.6 do ODS 11 da ONU por meio de controle de capacidade diária de coleta e validação de compatibilidade por categoria de resíduo.
+Aplicação acadêmica para consultar 127 ecopontos da Comlurb na cidade do Rio de Janeiro e criar planos pessoais de descarte, alinhada à Meta 11.6 do ODS 11. O catálogo é consumido pela API Fastify e os planos são persistidos em disco, sem reservas ou envio de solicitações à Comlurb.
 
 ## Início Rápido
 
-```bash
-npm install
-npm --prefix frontend install
+Requer Node.js 20 ou superior. Execute na raiz extraída do projeto. Em PowerShell:
+
+```powershell
+npm ci
+npm --prefix frontend ci
 npm test
-npm run dev
+npm run build
+npm run build:frontend
+$env:PORT='3001'
+$env:USE_IN_MEMORY_DB='true'
+npm start
 ```
 
-Em um segundo terminal, inicie a interface Front-End:
+Em outro terminal, na mesma pasta:
 
-```bash
+```powershell
+$env:VITE_API_BASE_URL='http://127.0.0.1:3001'
 npm run dev:frontend
 ```
 
-Execução alternativa via containers Docker (PostgreSQL + PostGIS + API):
-
-```bash
-docker compose up --build -d
-```
+Abra http://localhost:5173. Se a porta estiver ocupada, use o endereço indicado pelo Vite. API: http://127.0.0.1:3001/api/v1/rio/ecopontos. Não abra index.html diretamente. A instalação inicial requer internet; a consulta ao catálogo e o CRUD funcionam localmente sem APIs externas.
 
 ## Configuração
 
 | Variável | Tipo | Obrigatório | Padrão | Descrição |
-| :--- | :--- | :--- | :--- | :--- |
-| `PORT` | `number` | Não | `3000` | Porta TCP de escuta do servidor HTTP da API |
-| `HOST` | `string` | Não | `0.0.0.0` | Endereço de interface de rede vinculado pelo Fastify |
-| `NODE_ENV` | `string` | Não | `development` | Ambiente de execução (`development`, `test`, `production`) |
-| `DATABASE_URL` | `string` | Não | `""` | URI de conexão PostgreSQL com extensão PostGIS |
-| `USE_IN_MEMORY_DB` | `boolean` | Não | `true` | Ativa repositório em memória com cálculo Haversine quando PostgreSQL não está configurado |
-| `VITE_API_BASE_URL` | `string` | Não | `http://localhost:3000` | URL base da API consumida pelo cliente HTTP do Front-End |
+|---|---|---|---|---|
+| PORT | número | Não | 3000 | Porta da API; roteiro usa 3001 para evitar conflito com versão anterior |
+| HOST | texto | Não | 0.0.0.0 | Interface de escuta |
+| USE_IN_MEMORY_DB | booleano | Não | conforme ambiente | true dispensa PostgreSQL para os módulos anteriores; os planos RJ persistem em JSON |
+| DATABASE_URL | texto | Não | vazio | Conexão opcional dos módulos da Sprint 1 |
+| VITE_API_BASE_URL | texto | Não | http://localhost:3000 | Endereço da API; deve usar a mesma porta do servidor |
 
 ## Decisões de Arquitetura
 
-- **Polimorfismo de Repositório (PostGIS e In-Memory):** A camada de persistência implementa consultas espaciais via índice `GIST` (`ST_DWithin` e `ST_Distance`) no PostgreSQL/PostGIS e mantém implementação equivalente em memória baseada na fórmula de Haversine para execução local e testes determinísticos sem dependência obrigatória de container externo.
-- **Cliente HTTP Nativo com Validação de Perímetro (Fail Fast):** O Front-End utiliza a API nativa `fetch` sem bibliotecas HTTP de terceiros, validando os esquemas de entrada e saída na fronteira de rede antes de atualizar o estado da interface.
-- **Padronização de Erros RFC 7807 (Problem Details):** Erros de validação (HTTP 422), conflitos de cota diária (HTTP 409), transições de estado inválidas (HTTP 400) e recursos inexistentes (HTTP 404) retornam objetos tipados consumidos diretamente pelo componente de feedback do Front-End.
-- **Exclusão Lógica em Pontos de Coleta:** A operação `DELETE /api/v1/collection-points/:id` desativa o ponto (`is_active = false`) para preservar a integridade referencial do histórico de agendamentos vinculados.
+- React/TypeScript com componentes de cartão, formulário e cliente HTTP nativo. Fonte canônica em data/ecopontos-rj.json, entregue pela API, não embutida na interface.
+- GET /api/v1/rio/ecopontos aceita q, region e material. GET/POST /api/v1/rio/planos e PUT/DELETE /api/v1/rio/planos/:id implementam CRUD. Entradas validadas com Zod; erros exibidos na interface.
+- Planos em data/local/planos.json, com gravação em arquivo temporário e renomeação. Adequado à demonstração com um processo local; sem autenticação e sem isolamento por usuário. Não expor como serviço público multiusuário.
+- API da Sprint 1 preservada nos módulos collection-points e schedules. A interface atual usa o módulo RJ. Dados nacionais demonstrativos antigos ficam restritos aos testes no modo em memória; a inicialização não semeia PostgreSQL automaticamente.
+- Catálogo baseado em 128 capturas fornecidas, com uma imagem complementar do Arará: 127 pontos distintos. Operação indicada nas capturas, não monitoramento em tempo real. Sem coordenadas inventadas, cálculo de distância ou promessa de recebimento de eletrônicos.
+- Consulte docs/ENTREGA_CLASSROOM.md e docs/FONTES_COMLURB.md. O processamento IBGE/SINIR é um estudo anterior, independente da execução da aplicação RJ.

@@ -207,7 +207,7 @@ export class PostgresCollectionPointsRepository implements ICollectionPointsRepo
 export class InMemoryCollectionPointsRepository implements ICollectionPointsRepository {
   private items: CollectionPointItem[] = [];
 
-  constructor(initialData: CollectionPointItem[] = SEED_COLLECTION_POINTS) {
+  constructor(initialData: CollectionPointItem[] = process.env.NODE_ENV === 'test' ? SEED_COLLECTION_POINTS : []) {
     this.items = initialData.map((item) => ({
       ...item,
       created_at: item.created_at || new Date().toISOString(),

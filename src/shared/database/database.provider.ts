@@ -40,8 +40,11 @@ export class DatabaseProvider {
 
     try {
       const client = await this.pool.connect();
-      await client.query('SELECT 1');
-      client.release();
+      try {
+        await client.query('SELECT 1');
+      } finally {
+        client.release();
+      }
       this.isConnected = true;
       return true;
     } catch (error) {
