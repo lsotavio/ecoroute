@@ -1,10 +1,10 @@
 import { FormEvent, useState } from 'react';
 import { Plan, RioPoint } from '../rio-api';
-export function RioPlanForm({ point, initial, onSave, onCancel, busy }: {
-  point: RioPoint; initial?: Plan; onSave: (data: Omit<Plan,'id'>) => Promise<void>;
+export function RioPlanForm({ point, initial, preferredMaterial, error, onSave, onCancel, busy }: {
+  point: RioPoint; initial?: Plan; preferredMaterial: string; error: string; onSave: (data: Omit<Plan,'id'>) => Promise<void>;
   onCancel: () => void; busy: boolean;
 }) {
-  const [material, setMaterial] = useState(initial?.material || point.materials[0]);
+  const [material, setMaterial] = useState(() => initial?.material ?? (point.materials.includes(preferredMaterial) ? preferredMaterial : point.materials[0]));
   const [date, setDate] = useState(() => {
     const today = new Date();
     return initial?.date || [today.getFullYear(), String(today.getMonth()+1).padStart(2,'0'), String(today.getDate()).padStart(2,'0')].join('-');
@@ -24,6 +24,7 @@ export function RioPlanForm({ point, initial, onSave, onCancel, busy }: {
       <option>Planejado</option><option>Concluído</option><option>Cancelado</option>
     </select></label>
     <label>Anotações<textarea maxLength={500} value={notes} onChange={e => setNotes(e.target.value)} /></label>
+    {error && <p role="alert" className="rj-error">{error}</p>}
     <div className="rj-actions"><button disabled={busy}>Salvar plano</button><button type="button" className="secondary" disabled={busy} onClick={onCancel}>Cancelar</button></div>
   </form>;
 }

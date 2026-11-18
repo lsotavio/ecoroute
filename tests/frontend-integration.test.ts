@@ -23,6 +23,26 @@ describe('Front-End HTTP Client Integration with Back-End API', () => {
     await app.close();
   });
 
+  it('documenta a consulta por CEP e o CRUD de planos do Rio no OpenAPI', async () => {
+    const response = await app.inject('/api/docs/json');
+    expect(response.statusCode).toBe(200);
+    const { paths } = response.json();
+    const nearby = paths['/api/v1/rio/proximos'].get;
+    expect(nearby.parameters).toEqual(expect.arrayContaining([
+      expect.objectContaining({ name: 'cep', in: 'query', required: true }),
+      expect.objectContaining({ name: 'material', in: 'query' }),
+    ]));
+    expect(nearby.responses['503']).toBeDefined();
+    expect(paths['/api/v1/rio/ecopontos'].get.responses['200']).toBeDefined();
+    const plans = paths['/api/v1/rio/planos'];
+    expect(plans.get.responses['200']).toBeDefined();
+    expect(plans.post.requestBody).toBeDefined();
+    expect(plans.post.responses['201']).toBeDefined();
+    const plan = paths['/api/v1/rio/planos/{id}'];
+    expect(plan.put.requestBody).toBeDefined();
+    expect(plan.delete.responses['204']).toBeDefined();
+  });
+
   it('deve consultar o status de saúde da API via cliente HTTP do Front-End', async () => {
     const health = await client.getHealth();
     expect(health.status).toBe('UP');

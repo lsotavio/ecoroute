@@ -2,10 +2,9 @@ import { RioPoint } from '../rio-api';
 export function RioPointCard({ point, onPlan }: { point: RioPoint; onPlan: (point: RioPoint) => void }) {
   return <article className="rj-card">
     <small>{point.region}</small><h3>{point.name}</h3>
-    {point.distanceKm !== undefined && <strong>{point.distanceKm.toFixed(2)} km em linha reta</strong>}
-    <p>{point.address}</p><p className="muted">Localidade: {point.locality}</p>
-    <div className="rj-tags">{point.materials.map(m => <span key={m}>{m}</span>)}</div>
-    {!point.materials.length && <p>Materiais não informados na fonte. Consulte a Comlurb.</p>}
+    <p><strong>Materiais aceitos</strong><br />{point.materials.length ? point.materials.join(', ') : 'Sem informação na fonte. Consulte a Comlurb.'}</p>
+    <p>{point.address}<br /><span className="muted">{point.locality}</span></p>
+    {point.distanceKm !== undefined && <p><strong>{point.distanceKm.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} km</strong> em linha reta</p>}
     <details><summary>Fonte e funcionamento</summary>
       <p>Operação indicada na captura do painel Comlurb. Horários não transcritos. Confirme antes de sair.</p>
       <p>Imagem: {point.sourceFile}. Revisão: 30/10/2026.</p>
