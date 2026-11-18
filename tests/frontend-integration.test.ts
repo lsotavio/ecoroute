@@ -100,7 +100,7 @@ describe('Front-End HTTP Client Integration with Back-End API', () => {
       collection_point_id: targetPoint.id,
       user_name: 'Henrique Souza',
       user_email: 'henrique.souza@exemplo.com',
-      scheduled_date: '2026-11-15',
+      scheduled_date: new Date(Date.now() + 86400000).toISOString().slice(0, 10),
       waste_category: targetPoint.accepted_categories[0],
       items_description: '3 baterias estacionárias de nobreak',
     });
