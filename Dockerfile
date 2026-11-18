@@ -31,7 +31,7 @@ RUN npm ci --omit=dev
 
 # Copy compiled code from builder
 COPY --from=builder /app/dist ./dist
-COPY data/ecopontos-rj.json ./data/ecopontos-rj.json
+COPY data/ecopontos-rj.json data/cep-rj.json ./data/
 
 EXPOSE 3000
 

@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { z } from 'zod';
 import { AppError } from '../../shared/errors/app-error';
 export function distanceKm(lat: number, lng: number, lat2: number, lng2: number) {
@@ -12,7 +14,22 @@ async function getJson(url: string) {
     return await response.json();
   } catch (cause) { throw new AppError(503, 'Consulta indisponível', 'O serviço de localização está indisponível. Tente novamente ou use a busca por bairro.'); }
 }
+type LocalAddress = [street: string, neighborhood: string, latitude: number, longitude: number, scope?: "area"];
+const localAddresses: Record<string, LocalAddress> = JSON.parse(
+  readFileSync(resolve('data/cep-rj.json'), 'utf8')
+);
+
 export async function locateCep(cep: string) {
+  const local = localAddresses[cep];
+  if (local) {
+    const [street, neighborhood, latitude, longitude, scope] = local;
+    return { cep, street, neighborhood, latitude, longitude,
+      precision: scope === 'area'
+        ? 'O IBGE registra várias ruas ou localidades neste CEP. Distâncias estimadas a partir de uma posição representativa da área (Censo 2022).'
+        : 'Referência aproximada do CEP na base local do IBGE (Censo 2022).'
+    };
+  }
+
   const raw = await getJson('https://viacep.com.br/ws/'+cep+'/json/');
   if (raw.erro) throw AppError.notFound('CEP não encontrado.');
   const address = z.object({ localidade:z.literal('Rio de Janeiro'), uf:z.literal('RJ'), logradouro:z.string().min(1), bairro:z.string().min(1) }).safeParse(raw);

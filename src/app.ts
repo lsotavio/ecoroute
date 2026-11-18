@@ -55,8 +55,8 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
       info: {
         title: 'Ecoroute RJ API',
         description:
-          'API RESTful para mapeamento geoespacial e agendamento de descarte responsável de resíduos eletroeletrônicos (e-waste). Projeto alinhado ao ODS 11 (Cidades e Comunidades Sustentáveis) - Meta 11.6.',
-        version: '1.0.0',
+          'API do EcoRoute RJ para consultar ecopontos da Comlurb, buscar por CEP e organizar planos pessoais de descarte. Inclui os módulos de pontos de coleta e agendamentos da Sprint 1. ODS 11, Meta 11.6.',
+        version: '1.1.0',
         contact: {
           name: 'Equipe EcoRoute',
           email: 'suporte@ecoroute.com',
@@ -69,6 +69,7 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
         },
       ],
       tags: [
+        { name: 'Ecopontos RJ', description: 'Catálogo municipal, proximidade por CEP e planos pessoais.' },
         {
           name: 'Pontos de Coleta',
           description: 'Gestão e busca geoespacial de Pontos de Entrega Voluntária (PEV)',
@@ -118,7 +119,7 @@ export async function buildApp(options: BuildAppOptions = {}): Promise<FastifyIn
         status: 'UP',
         timestamp: new Date().toISOString(),
         service: 'Ecoroute RJ API',
-        version: '1.0.0',
+        version: '1.1.0',
         ods: 'ODS 11 - Cidades e Comunidades Sustentáveis',
         database: {
           connected: isDbConnected,

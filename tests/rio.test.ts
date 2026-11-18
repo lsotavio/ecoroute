@@ -3,11 +3,18 @@ import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import Fastify from 'fastify';
+import { serializerCompiler, validatorCompiler } from 'fastify-type-provider-zod';
 import { rioRoutes } from '../src/modules/rio/rio.routes';
 import { errorHandlerFilter } from '../src/shared/errors/error-handler.filter';
 const directory = mkdtempSync(join(tmpdir(), 'ecoroute-rj-test-'));
 const storagePath = join(directory, 'plans.json');
-const app = Fastify();
+function createTestApp() {
+  const app = Fastify();
+  app.setValidatorCompiler(validatorCompiler);
+  app.setSerializerCompiler(serializerCompiler);
+  return app;
+}
+const app = createTestApp();
 app.setErrorHandler(errorHandlerFilter);
 await app.register(rioRoutes, { prefix: '/rio', storagePath });
 afterAll(async () => { await app.close(); rmSync(directory, { recursive: true }); });
@@ -30,7 +37,7 @@ it('faz CRUD e persiste planos após reabrir o servidor', async () => {
   const create = await app.inject({ method:'POST', url:'/rio/planos', payload: data });
   expect(create.statusCode).toBe(201);
   const id = create.json().id;
-  const second = Fastify();
+  const second = createTestApp();
   await second.register(rioRoutes, { prefix:'/rio', storagePath });
   expect((await second.inject('/rio/planos')).json()[0].id).toBe(id);
   await second.close();
